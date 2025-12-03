@@ -128,8 +128,8 @@
 				<maxSize>0.368 0.3</maxSize>
 			</image>
 			<image name="console">
-				<pos>0.3975 0.45</pos>
-				<maxSize>0.15 0.17</maxSize>
+				<pos>0.38 0.45</pos>
+				<maxSize>0.13 0.17</maxSize>
 			</image>
 		</view>
 	</variant>
