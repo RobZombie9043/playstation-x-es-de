@@ -71,6 +71,7 @@ A custom color scheme lets you to modify the user avatar and username displayed 
 - Ported from the PlayStation-X ES theme by pajarorrojo - https://github.com/pajarorrojo/es-theme-PlayStation-X
 - Many video assets from alpha-es-de by hplant6 - https://github.com/hplant6/alpha-es-de
 - Some backgorund image artwork from slick-es-de by Weestuarty - https://github.com/Weestuarty-es-de/slick-es-de
+- PS4 Sounds from MrVictorFull57 - https://github.com/MrVictorFull57/iisu-interpreted-es-de/commits?author=MrVictorFull57
 
 ## Licence
 **Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
