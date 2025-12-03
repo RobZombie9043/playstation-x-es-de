@@ -110,6 +110,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<cropSize>1 1</cropSize>
+			<default>./_inc/systems/background/_default.webp</default>
 			<path>./_inc/systems/background/${system.theme}.webp</path>
 			<zIndex>45</zIndex>
 		</image>
@@ -126,6 +127,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<origin>0.5 0</origin>
 			<pos>0.5 0.125</pos>
 			<size>1 0.39</size>
+			<defaultImage>./_inc/systems/icons/_default.webp</defaultImage>
 			<staticImage>./_inc/systems/icons/${system.theme}.webp</staticImage>
 			<itemVerticalAlignment>top</itemVerticalAlignment>
 			<itemSize>${itemSizeSysCarousel}</itemSize>	
@@ -189,7 +191,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</text>
 		<text name="customCollectionName">
 			<text>${system.fullName.customCollections}</text>
-			<letterCase>none</letterCase>
+			<letterCase>capitalize</letterCase>
 		</text>
 		
 		<video name="system_video">
