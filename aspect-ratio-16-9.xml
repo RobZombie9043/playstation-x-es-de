@@ -41,14 +41,14 @@
 			<pos>0.24 0.068</pos>
 		</text>
 		<text name="game-playcount">
-			<pos>0.35 0.068</pos>
+			<pos>0.3525 0.068</pos>
 		</text>
 		
 		<text name="game-playtime-label">
 			<pos>0.4225 0.068</pos>
 		</text>
 		<text name="game-playtime">
-			<pos>0.495 0.068</pos>
+			<pos>0.4975 0.068</pos>
 		</text>
 	</view>
 	
