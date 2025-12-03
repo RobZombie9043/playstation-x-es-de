@@ -1,0 +1,292 @@
+<theme>				
+	<aspectRatio name="1:1">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.17 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0425 0.0425</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>5.58235294117647</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.257</selectorXSizeSysCarousel>
+				<sysNameXPos>0.388629653401797</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.19 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0475 0.0475</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>4.96315789473684</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.287</selectorXSizeSysCarousel>
+				<sysNameXPos>0.406882470119522</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.21 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0525 0.0525</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>4.46190476190476</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.317</selectorXSizeSysCarousel>
+				<sysNameXPos>0.425698074277854</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="8:7">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.14875 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0371875 0.0371875</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>6.37983193277311</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.2252</selectorXSizeSysCarousel>
+				<sysNameXPos>0.37104235004686</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.16625 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0415625 0.0415625</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>5.67218045112782</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.2514</selectorXSizeSysCarousel>
+				<sysNameXPos>0.386887371258449</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.18375 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0459375 0.0459375</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>5.09931972789116</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.2777</selectorXSizeSysCarousel>
+				<sysNameXPos>0.403180903584467</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="5:4">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.136 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.034 0.034</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>6.97794117647059</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.206</selectorXSizeSysCarousel>
+				<sysNameXPos>0.360531365313653</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.152 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.038 0.038</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>6.20394736842105</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.23</selectorXSizeSysCarousel>
+				<sysNameXPos>0.374953223767383</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.168 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.042 0.042</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>5.57738095238095</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.254</selectorXSizeSysCarousel>
+				<sysNameXPos>0.3897633289987</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="4:3">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.1275 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.031875 0.031875</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>7.44313725490196</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1933</selectorXSizeSysCarousel>
+				<sysNameXPos>0.353540398660986</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.1425 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.035625 0.035625</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>6.61754385964912</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.2158</selectorXSizeSysCarousel>
+				<sysNameXPos>0.367021783260462</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.1575 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.039375 0.039375</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>5.94920634920635</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.2383</selectorXSizeSysCarousel>
+				<sysNameXPos>0.380854313662604</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="3:2">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.113333333333333 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0283333333333333 0.0283333333333333</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>8.37352941176471</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.172</selectorXSizeSysCarousel>
+				<sysNameXPos>0.341916633426406</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.126666666666667 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0316666666666667 0.0316666666666667</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>7.44473684210526</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.192</selectorXSizeSysCarousel>
+				<sysNameXPos>0.353844426296448</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.14 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.035 0.035</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>6.69285714285714</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.212</selectorXSizeSysCarousel>
+				<sysNameXPos>0.366066499372647</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="16:10">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.10625 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0265625 0.0265625</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>8.93176470588235</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1614</selectorXSizeSysCarousel>
+				<sysNameXPos>0.336117342776624</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.11875 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0296875 0.0296875</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>7.94105263157895</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1802</selectorXSizeSysCarousel>
+				<sysNameXPos>0.347274510919017</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.13125 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0328125 0.0328125</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>7.13904761904762</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1989</selectorXSizeSysCarousel>
+				<sysNameXPos>0.358699678094943</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="16:9">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.095625 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.02390625 0.02390625</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>9.92418300653595</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1455</selectorXSizeSysCarousel>
+				<sysNameXPos>0.327433558847224</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.106875 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.02671875 0.02671875</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>8.8233918128655</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1624</selectorXSizeSysCarousel>
+				<sysNameXPos>0.337442092427867</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.118125 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.02953125 0.02953125</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>7.93227513227513</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1792</selectorXSizeSysCarousel>
+				<sysNameXPos>0.347681675507556</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="19.5:9">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.0784615384615385 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0196153846153846 0.0196153846153846</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>12.0950980392157</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1197</selectorXSizeSysCarousel>
+				<sysNameXPos>0.313442778393295</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.0876923076923077 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0219230769230769 0.0219230769230769</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>10.7535087719298</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1336</selectorXSizeSysCarousel>
+				<sysNameXPos>0.321613281493217</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.0969230769230769 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0242307692307692 0.0242307692307692</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>9.66746031746032</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1474</selectorXSizeSysCarousel>
+				<sysNameXPos>0.329960872842019</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="21:9">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.0728571428571429 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0182142857142857 0.0182142857142857</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>13.0254901960784</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1113</selectorXSizeSysCarousel>
+				<sysNameXPos>0.308883848501083</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.0814285714285714 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0203571428571429 0.0203571428571429</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>11.580701754386</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.1242</selectorXSizeSysCarousel>
+				<sysNameXPos>0.31645859487884</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.09 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.0225 0.0225</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>10.4111111111111</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.137</selectorXSizeSysCarousel>
+				<sysNameXPos>0.324194214876033</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+	<aspectRatio name="32:9">			
+		<fontSize name="small">		
+			<variables>	
+				<itemSizeSysCarousel>0.0478125 0.17</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.011953125 0.011953125</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>19.8483660130719</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.0738</selectorXSizeSysCarousel>
+				<sysNameXPos>0.288565179840835</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="medium">		
+			<variables>	
+				<itemSizeSysCarousel>0.0534375 0.19</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.013359375 0.013359375</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>17.646783625731</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.0822</selectorXSizeSysCarousel>
+				<sysNameXPos>0.293502209873182</sysNameXPos>
+			</variables>	
+		</fontSize>		
+		<fontSize name="large">		
+			<variables>	
+				<itemSizeSysCarousel>0.0590625 0.21</itemSizeSysCarousel>
+				<selectedItemMarginsSysCarousel>0.014765625 0.014765625</selectedItemMarginsSysCarousel>
+				<maxItemCountSysCarousel>15.8645502645503</maxItemCountSysCarousel>
+				<selectorXSizeSysCarousel>0.0906</selectorXSizeSysCarousel>
+				<sysNameXPos>0.29853514651705</sysNameXPos>
+			</variables>	
+		</fontSize>		
+	</aspectRatio>			
+</theme>				

@@ -1,0 +1,232 @@
+<theme>						
+	<aspectRatio name="1:1">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.150088235294118 0.21</itemSize>		
+				<selectedItemMargins>0.0300176470588235 0.0300176470588235</selectedItemMargins>		
+				<maxItemCount>6.09841162285509</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.171529411764706 0.24</itemSize>		
+				<selectedItemMargins>0.0343058823529412 0.0343058823529412</selectedItemMargins>		
+				<maxItemCount>5.39321089922098</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.192970588235294 0.27</itemSize>		
+				<selectedItemMargins>0.0385941176470588 0.0385941176470588</selectedItemMargins>		
+				<maxItemCount>4.83419959241062</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="8:7">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.134007352941176 0.214285714285714</itemSize>		
+				<selectedItemMargins>0.0268014705882353 0.0268014705882353</selectedItemMargins>		
+				<maxItemCount>6.84181106763555</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.152768382352941 0.244285714285714</itemSize>		
+				<selectedItemMargins>0.0305536764705882 0.0305536764705882</selectedItemMargins>		
+				<maxItemCount>6.06350330792838</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.171529411764706 0.274285714285714</itemSize>		
+				<selectedItemMargins>0.0343058823529412 0.0343058823529412</selectedItemMargins>		
+				<maxItemCount>5.44418597410453</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="5:4">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.124358823529412 0.2175</itemSize>		
+				<selectedItemMargins>0.0248717647058823 0.0248717647058823</selectedItemMargins>		
+				<maxItemCount>7.3817116886751</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.141511764705882 0.2475</itemSize>		
+				<selectedItemMargins>0.0283023529411765 0.0283023529411765</selectedItemMargins>		
+				<maxItemCount>6.55209774188161</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.158664705882353 0.2775</itemSize>		
+				<selectedItemMargins>0.0317329411764706 0.0317329411764706</selectedItemMargins>		
+				<maxItemCount>5.8901203817414</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="4:3">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.117926470588235 0.22</itemSize>		
+				<selectedItemMargins>0.0235852941176471 0.0235852941176471</selectedItemMargins>		
+				<maxItemCount>7.79161255824612</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.134007352941176 0.25</itemSize>		
+				<selectedItemMargins>0.0268014705882353 0.0268014705882353</selectedItemMargins>		
+				<maxItemCount>6.92405600339414</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.150088235294118 0.28</itemSize>		
+				<selectedItemMargins>0.0300176470588235 0.0300176470588235</selectedItemMargins>		
+				<maxItemCount>6.23033930916532</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="3:2">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.107205882352941 0.225</itemSize>		
+				<selectedItemMargins>0.0214411764705882 0.0214411764705882</selectedItemMargins>		
+				<maxItemCount>8.58626011317402</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.1215 0.255</itemSize>		
+				<selectedItemMargins>0.0243 0.0243</selectedItemMargins>		
+				<maxItemCount>7.64764197705707</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.135794117647059 0.285</itemSize>		
+				<selectedItemMargins>0.0271588235294118 0.0271588235294118</selectedItemMargins>		
+				<maxItemCount>6.89401392320459</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="16:10">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.101845588235294 0.228</itemSize>		
+				<selectedItemMargins>0.0203691176470588 0.0203691176470588</selectedItemMargins>		
+				<maxItemCount>9.04763312734691</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.115246323529412 0.258</itemSize>		
+				<selectedItemMargins>0.0230492647058823 0.0230492647058823</selectedItemMargins>		
+				<maxItemCount>8.06927445751599</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.128647058823529 0.288</itemSize>		
+				<selectedItemMargins>0.0257294117647059 0.0257294117647059</selectedItemMargins>		
+				<maxItemCount>7.28185663547287</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="16:9">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.0938051470588235 0.233333333333333</itemSize>		
+				<selectedItemMargins>0.0187610294117647 0.0187610294117647</selectedItemMargins>		
+				<maxItemCount>9.84081041968162</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.105865808823529 0.263333333333333</itemSize>		
+				<selectedItemMargins>0.0211731617647059 0.0211731617647059</selectedItemMargins>		
+				<maxItemCount>8.79675296324445</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.117926470588235 0.293333333333333</itemSize>		
+				<selectedItemMargins>0.0235852941176471 0.0235852941176471</selectedItemMargins>		
+				<maxItemCount>7.95298383088214</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="19.5:9">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.080816742081448 0.245</itemSize>		
+				<selectedItemMargins>0.0161633484162896 0.0161633484162896</selectedItemMargins>		
+				<maxItemCount>11.4643403681385</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.0907126696832579 0.275</itemSize>		
+				<selectedItemMargins>0.0181425339366516 0.0181425339366516</selectedItemMargins>		
+				<maxItemCount>10.2962301510269</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.100608597285068 0.305</itemSize>		
+				<selectedItemMargins>0.0201217194570136 0.0201217194570136</selectedItemMargins>		
+				<maxItemCount>9.34414792786825</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="21:9">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.0765756302521008 0.25</itemSize>		
+				<selectedItemMargins>0.0153151260504202 0.0153151260504202</selectedItemMargins>		
+				<maxItemCount>12.1170980059398</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.085764705882353 0.28</itemSize>		
+				<selectedItemMargins>0.0171529411764706 0.0171529411764706</selectedItemMargins>		
+				<maxItemCount>10.9030937910393</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.094953781512605 0.31</itemSize>		
+				<selectedItemMargins>0.018990756302521 0.018990756302521</selectedItemMargins>		
+				<maxItemCount>9.91019750995878</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="32:9">					
+		<fontSize name="small">				
+			<variables>			
+				<itemSize>0.0576231617647059 0.286666666666667</itemSize>		
+				<selectedItemMargins>0.0115246323529412 0.0115246323529412</selectedItemMargins>		
+				<maxItemCount>16.2523900573614</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<itemSize>0.0636534926470588 0.316666666666667</itemSize>		
+				<selectedItemMargins>0.0127306985294118 0.0127306985294118</selectedItemMargins>		
+				<maxItemCount>14.8017141691041</maxItemCount>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<itemSize>0.0696838235294118 0.346666666666667</itemSize>		
+				<selectedItemMargins>0.0139367647058823 0.0139367647058823</selectedItemMargins>		
+				<maxItemCount>13.5887892488697</maxItemCount>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+</theme>						

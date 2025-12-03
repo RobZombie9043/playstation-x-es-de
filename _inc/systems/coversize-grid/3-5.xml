@@ -1,0 +1,202 @@
+<theme>						
+	<aspectRatio name="1:1">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.11223 0.18705</gridItemSize>		
+				<gridItemSpacing>0.005 0.005</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.1357 0.22616</gridItemSize>		
+				<gridItemSpacing>0.005 0.005</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1709 0.28483</gridItemSize>		
+				<gridItemSpacing>0.005 0.005</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="8:7">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.11223 0.21476</gridItemSize>		
+				<gridItemSpacing>0.005 0.00574</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.1357 0.25967</gridItemSize>		
+				<gridItemSpacing>0.005 0.00574</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1709 0.32703</gridItemSize>		
+				<gridItemSpacing>0.005 0.00574</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="5:4">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.09547 0.19889</gridItemSize>		
+				<gridItemSpacing>0.005 0.00625</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.11223 0.23381</gridItemSize>		
+				<gridItemSpacing>0.005 0.00625</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.2827</gridItemSize>		
+				<gridItemSpacing>0.005 0.00625</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="4:3">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.09547 0.21215</gridItemSize>		
+				<gridItemSpacing>0.005 0.00666</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.11223 0.2494</gridItemSize>		
+				<gridItemSpacing>0.005 0.00666</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.30155</gridItemSize>		
+				<gridItemSpacing>0.005 0.00666</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="3:2">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.09547 0.23867</gridItemSize>		
+				<gridItemSpacing>0.005 0.0075</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.11223 0.28058</gridItemSize>		
+				<gridItemSpacing>0.005 0.0075</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.33925</gridItemSize>		
+				<gridItemSpacing>0.005 0.0075</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="16:10">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.09547 0.25459</gridItemSize>		
+				<gridItemSpacing>0.005 0.008</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.11223 0.29928</gridItemSize>		
+				<gridItemSpacing>0.005 0.008</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.36186</gridItemSize>		
+				<gridItemSpacing>0.005 0.008</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="16:9">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.09547 0.28287</gridItemSize>		
+				<gridItemSpacing>0.005 0.00888</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.11223 0.33254</gridItemSize>		
+				<gridItemSpacing>0.005 0.00888</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.40207</gridItemSize>		
+				<gridItemSpacing>0.005 0.00888</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="19.5:9">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.09547 0.34475</gridItemSize>		
+				<gridItemSpacing>0.005 0.01083</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.11223 0.40528</gridItemSize>		
+				<gridItemSpacing>0.005 0.01083</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.49002</gridItemSize>		
+				<gridItemSpacing>0.005 0.01083</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="21:9">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.0829 0.32238</gridItemSize>		
+				<gridItemSpacing>0.005 0.01166</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.09547 0.37127</gridItemSize>		
+				<gridItemSpacing>0.005 0.01166</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.1357 0.49002</gridItemSize>		
+				<gridItemSpacing>0.005 0.01083</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+	<aspectRatio name="32:9">					
+		<fontSize name="small">				
+			<variables>			
+				<gridItemSize>0.0653 0.38696</gridItemSize>		
+				<gridItemSpacing>0.005 0.01777</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="medium">				
+			<variables>			
+				<gridItemSize>0.07312 0.43331</gridItemSize>		
+				<gridItemSpacing>0.005 0.01777</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+		<fontSize name="large">				
+			<variables>			
+				<gridItemSize>0.0829 0.49125</gridItemSize>		
+				<gridItemSpacing>0.005 0.01777</gridItemSpacing>		
+			</variables>			
+		</fontSize>				
+	</aspectRatio>					
+</theme>						

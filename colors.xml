@@ -1,0 +1,61 @@
+<theme>
+	<colorScheme name="ps4, ps4-custom">
+        <variables>
+			<startVisible>true</startVisible>
+			<selectorYSizeSmall>0.304</selectorYSizeSmall>
+			<selectorYSizeMedium>0.334</selectorYSizeMedium>
+			<selectorYSizeLarge>0.364</selectorYSizeLarge>	
+			<selectorPath>./_inc/images/grid-selector.svg</selectorPath>
+			<systemNamePosYSmall>0.435</systemNamePosYSmall>
+			<systemNamePosYMedium>0.465</systemNamePosYMedium>
+			<systemNamePosYLarge>0.495</systemNamePosYLarge>
+			<iconRadius>0</iconRadius>
+			<customizationsPath>./default.xml</customizationsPath>
+		</variables>
+    </colorScheme>
+	<colorScheme name="ps5, ps5-custom">
+        <variables>
+			<startVisible>false</startVisible>
+			<selectorYSizeSmall>0.255</selectorYSizeSmall>
+			<selectorYSizeMedium>0.285</selectorYSizeMedium>
+			<selectorYSizeLarge>0.315</selectorYSizeLarge>		
+			<selectorPath>./_inc/images/grid-selector-rounded.svg</selectorPath>
+			<systemNamePosYSmall>0.370</systemNamePosYSmall>
+			<systemNamePosYMedium>0.395</systemNamePosYMedium>
+			<systemNamePosYLarge>0.420</systemNamePosYLarge>
+			<iconRadius>${carouselRadius}</iconRadius>
+			<customizationsPath>./default.xml</customizationsPath>
+		</variables>
+    </colorScheme>
+	
+	<colorScheme name="ps4-custom,ps5-custom">
+		<variables>
+			<customizationsPath>./theme-customizations/customizations.xml</customizationsPath>
+		</variables>
+	</colorScheme>
+	<include>${customizationsPath}</include>
+	
+	
+	
+	<fontSize name="small">
+		<variables>
+			<startYPos>0.38</startYPos>
+			<selectorYSize>${selectorYSizeSmall}</selectorYSize>
+			<systemNamePosY>${systemNamePosYSmall}</systemNamePosY>
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<startYPos>0.41</startYPos>
+			<selectorYSize>${selectorYSizeMedium}</selectorYSize>
+			<systemNamePosY>${systemNamePosYMedium}</systemNamePosY>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<startYPos>0.44</startYPos>
+			<selectorYSize>${selectorYSizeLarge}</selectorYSize>
+			<systemNamePosY>${systemNamePosYLarge}</systemNamePosY>
+		</variables>
+	</fontSize>
+</theme>

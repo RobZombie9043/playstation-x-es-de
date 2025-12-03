@@ -1,0 +1,333 @@
+<!-- 
+1:1 aspect ratio
+-->
+<theme>
+	<include>./colors.xml</include>
+	
+	<fontSize name="small">
+		<variables>
+			<carouselRadius>0.017</carouselRadius>
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<carouselRadius>0.019</carouselRadius>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<carouselRadius>0.021</carouselRadius>
+		</variables>
+	</fontSize>
+	
+	<!--
+	///
+	All Views
+	///
+	-->
+	<view name="system,gamelist">
+		<text name="user-name">
+			<pos>0.73 0.068</pos>
+		</text>
+	</view>
+	
+	<!--
+	///
+	System View
+	///
+	-->	
+	<view name="system">
+		<carousel name="system-carousel">
+			<imageCornerRadius>${iconRadius}</imageCornerRadius>
+		</carousel>
+		
+		<image name="overlay-arts">
+			<origin>1 1</origin>
+			<pos>1.1 1</pos>
+			<size>0 0.9</size>
+		</image>
+		<video name="system_video">
+			<maxSize>0.285 0.338</maxSize>
+		</video>
+		<text name="system-details">
+			<pos>0.318 0.53</pos>
+			<size>0 0.06</size>
+		</text>
+		<text name="system-description">
+			<pos>0.318 0.575</pos>
+			<size>0.458 0.2</size>
+		</text>
+	</view>
+	
+	<!--
+	///
+	Gamelist View - Common
+	///
+	-->
+	<view name="gamelist">
+		<text name="game-playcount-label">
+			<pos>0.235 0.068</pos>
+		</text>
+		<text name="game-playcount">
+			<pos>0.3625 0.068</pos>
+		</text>
+		
+		<text name="game-playtime-label">
+			<pos>0.42 0.068</pos>
+		</text>
+		<text name="game-playtime">
+			<pos>0.505 0.068</pos>
+		</text>
+	</view>
+	
+	<!--
+	///
+	Gamelist View - Carousels
+	///
+	-->
+	<variant name="carousel-2d-description, carousel-3d-description">
+		<view name="gamelist">
+			<text name="game-name">
+				<pos>0.025 0.14</pos>
+				<size>0.95 0.05</size>
+				<container>true</container>
+				<containerType>horizontal</containerType>
+			</text>
+			
+			<datetime name="game-year">
+				<pos>0.025 0.225</pos>
+			</datetime>
+			
+			<text name="game-developer-dot">
+				<pos>${gameDeveloperDotDesc} 0.225</pos>
+			</text>
+			
+			<text name="game-developer">
+				<pos>${gameDeveloperDesc} 0.225</pos>
+				<size>${gameDeveloperDescSize} 0.03</size>
+			</text>
+			
+			<rating name="game-rating">
+				<pos>0.025 0.255</pos>
+			</rating>
+			
+			<text name="game-genre-dot">
+				<pos>${gameGenreDotDesc} 0.255</pos>
+			</text>
+			
+			<text name="game-genre">
+				<pos>${gameGenreDesc} 0.255</pos>
+				<size>${gameGenreDescSize} 0.03</size>
+			</text>
+			
+			<text name="game-description">
+				<pos>0.025 0.295</pos>
+			</text>
+		</view>
+	</variant>
+	
+	<fontSize name="small">
+		<variables>
+			<gameDeveloperDotDesc>0.08</gameDeveloperDotDesc>
+			<gameDeveloperDesc>0.1025</gameDeveloperDesc>
+			<gameDeveloperDescSize>0.4725</gameDeveloperDescSize>
+			<gameGenreDotDesc>0.1275</gameGenreDotDesc>
+			<gameGenreDesc>0.1525</gameGenreDesc>
+			<gameGenreDescSize>0.4225</gameGenreDescSize>	
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<gameDeveloperDotDesc>0.085</gameDeveloperDotDesc>
+			<gameDeveloperDesc>0.10875</gameDeveloperDesc>
+			<gameDeveloperDescSize>0.46625</gameDeveloperDescSize>
+			<gameGenreDotDesc>0.13625</gameGenreDotDesc>
+			<gameGenreDesc>0.16375</gameGenreDesc>
+			<gameGenreDescSize>0.41125</gameGenreDescSize>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<gameDeveloperDotDesc>0.09</gameDeveloperDotDesc>
+			<gameDeveloperDesc>0.115</gameDeveloperDesc>
+			<gameDeveloperDescSize>0.46</gameDeveloperDescSize>
+			<gameGenreDotDesc>0.145</gameGenreDotDesc>
+			<gameGenreDesc>0.175</gameGenreDesc>
+			<gameGenreDescSize>0.4</gameGenreDescSize>
+		</variables>
+	</fontSize>
+	
+	<variant name="carousel-2d-mix, carousel-3d-mix">
+		<view name="gamelist">
+			<text name="game-name">
+				<pos>0.3 0.16</pos>
+				<size>0.584 0.06</size>
+				<container>true</container>
+				<containerType>horizontal</containerType>
+			</text>
+			
+			<datetime name="game-year">
+				<pos>0.3 0.255</pos>
+			</datetime>
+			
+			<text name="game-developer-dot">
+				<pos>${gameDeveloperDot} 0.255</pos>
+			</text>
+			
+			<text name="game-developer">
+				<pos>${gameDeveloper} 0.255</pos>
+				<size>${gameDeveloperSize} 0.03</size>
+			</text>
+			
+			<rating name="game-rating">
+				<pos>0.3 0.285</pos>
+			</rating>
+			
+			<text name="game-genre-dot">
+				<pos>${gameGenreDot} 0.285</pos>
+			</text>
+			
+			<text name="game-genre">
+				<pos>${gameGenre} 0.285</pos>
+				<size>${gameGenreSize} 0.03</size>
+			</text>
+			
+			<badges name="carousel-badges">
+				<pos>0.3 0.335</pos>
+			</badges>
+		</view>
+	</variant>
+	
+	
+	
+	<variant name="carousel-2d-both, carousel-3d-both">
+		<view name="gamelist">
+			<text name="game-name">
+				<pos>0.3 0.145</pos>
+				<size>0.584 0.06</size>
+				<container>true</container>
+				<containerType>horizontal</containerType>
+			</text>
+			
+			<datetime name="game-year">
+				<pos>0.3 0.225</pos>
+			</datetime>
+			
+			<text name="game-developer-dot">
+				<pos>${gameDeveloperDot} 0.225</pos>
+			</text>
+			
+			<text name="game-developer">
+				<pos>${gameDeveloper} 0.225</pos>
+				<size>${gameDeveloperSize} 0.03</size>
+			</text>
+			
+			<rating name="game-rating">
+				<pos>0.3 0.255</pos>
+			</rating>
+			
+			<text name="game-genre-dot">
+				<pos>${gameGenreDot} 0.255</pos>
+			</text>
+			
+			<text name="game-genre">
+				<pos>${gameGenre} 0.255</pos>
+				<size>${gameGenreSize} 0.03</size>
+			</text>
+			
+			<text name="game-description">
+				<pos>0.3 0.29</pos>
+			</text>
+			
+			<badges name="carousel-badges">
+				<pos>0.3 0.435</pos>
+			</badges>
+		</view>
+	</variant>
+	
+	<fontSize name="small">
+		<variables>
+			<gameDeveloperDot>0.35</gameDeveloperDot>
+			<gameDeveloper>0.37</gameDeveloper>
+			<gameDeveloperSize>0.514</gameDeveloperSize>
+			<gameGenreDot>0.39875</gameGenreDot>
+			<gameGenre>0.42</gameGenre>
+			<gameGenreSize>0.464</gameGenreSize>
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<gameDeveloperDot>0.3575</gameDeveloperDot>
+			<gameDeveloper>0.38</gameDeveloper>
+			<gameDeveloperSize>0.504</gameDeveloperSize>
+			<gameGenreDot>0.409375</gameGenreDot>
+			<gameGenre>0.435</gameGenre>
+			<gameGenreSize>0.449</gameGenreSize>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<gameDeveloperDot>0.365</gameDeveloperDot>
+			<gameDeveloper>0.39</gameDeveloper>
+			<gameDeveloperSize>0.494</gameDeveloperSize>
+			<gameGenreDot>0.42</gameGenreDot>
+			<gameGenre>0.45</gameGenre>
+			<gameGenreSize>0.434</gameGenreSize>
+		</variables>
+	</fontSize>
+	
+	<!--
+	///
+	Gamelist View - Grid
+	///
+	-->
+	<variant name="grid">
+		<view name="gamelist">
+			<video name="game-screenshot">
+				<pos>0.016 0.46</pos>
+			</video>
+				
+			<text name="game-name">
+				<pos>0.016 0.49</pos>
+			</text>
+			
+			<datetime name="game-year">
+				<pos>0.016 0.5425</pos>
+			</datetime>
+			
+			<text name="game-developer-dot">
+				<visible>false</visible>
+			</text>
+			
+			<text name="game-developer">
+				<pos>0.016 0.5775</pos>
+				<size>0.253 0.03</size>
+			</text>
+			
+			<rating name="game-rating">
+				<pos>0.016 0.6475</pos>
+			</rating>
+			
+			<text name="game-genre-dot">
+				<visible>false</visible>
+			</text>
+			
+			<text name="game-genre">
+				<pos>0.016 0.6125</pos>
+				<size>0.253 0.03</size>
+			</text>
+			
+			<text name="game-description">
+				<pos>0.016 0.69</pos>
+				<size>0.253 0.15</size>
+			</text>
+			
+			<badges name="carousel-badges">
+				<pos>0.016 0.86</pos>
+				<size>0.253 ${fontSizeBody}</size>
+			</badges>
+			
+		</view>
+	</variant>
+
+</theme>

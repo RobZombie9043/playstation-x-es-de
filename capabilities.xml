@@ -1,0 +1,107 @@
+<themeCapabilities>
+   
+	<themeName>PlayStation-X</themeName>
+   
+	<!--
+	///
+	Aspect Ratios
+	///
+	-->
+	<aspectRatio>1:1</aspectRatio>
+	<aspectRatio>8:7</aspectRatio>
+	<aspectRatio>5:4</aspectRatio>
+	<aspectRatio>4:3</aspectRatio>
+	<aspectRatio>3:2</aspectRatio>
+	<aspectRatio>16:10</aspectRatio>
+	<aspectRatio>16:9</aspectRatio>
+	<aspectRatio>19.5:9</aspectRatio>
+	<aspectRatio>21:9</aspectRatio>
+	<aspectRatio>32:9</aspectRatio>
+	
+	<!--
+	///
+	Font Size
+	///
+	-->
+	<fontSize>small</fontSize>
+	<fontSize>medium</fontSize>
+	<fontSize>large</fontSize>
+	
+	
+	
+	<!--
+	///
+	Transitions
+	///
+	-->
+	<transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>instant</systemToGamelist>
+		<gamelistToGamelist>instant</gamelistToGamelist>
+		<gamelistToSystem>instant</gamelistToSystem>
+		<startupToSystem>fade</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+   
+	<!--
+	///
+	Variants
+	///
+	-->
+	<variant name="carousel-2d-both">
+		<label>Carousel 2D - Detailed</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-2d-description">
+		<label>Carousel 2D - Simple (Description)</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-2d-mix">
+		<label>Carousel 2D - Simple (Miximage)</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="carousel-3d-both">
+		<label>Carousel 3D - Detailed</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-3d-description">
+		<label>Carousel 3D - Simple (Description)</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-3d-mix">
+		<label>Carousel 3D - Simple (Miximage)</label>
+		<selectable>true</selectable>
+	</variant>
+		
+	<variant name="grid">
+		<label>Grid</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<!--
+	///
+	Color Schemes
+	///
+	-->
+	<colorScheme name="ps4">
+        <label>PS4</label>
+    </colorScheme>
+	<colorScheme name="ps5">
+        <label>PS5</label>
+    </colorScheme>
+	<colorScheme name="ps4-custom">
+        <label>PS4 - Custom</label>
+    </colorScheme>
+	<colorScheme name="ps5-custom">
+        <label>PS5 - Custom</label>
+    </colorScheme>
+	
+</themeCapabilities>
