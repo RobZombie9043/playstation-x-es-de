@@ -1,10 +1,11 @@
-# PlayStation-X-es-de
+# PlayStation-X ES-DE
 A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStation-X) ES theme by [pajarorrojo](https://github.com/pajarorrojo) to ES-DE
 
 ## Preview
 | PS4 View | PS5 View | 
 |----|----|
-|<img width="1272" height="712" alt="ps4_cropped" src="https://github.com/user-attachments/assets/a62a5caf-8024-4a34-ae3e-e2114fd1d03a" />|<img width="1272" height="712" alt="ps5_cropped" src="https://github.com/user-attachments/assets/9fe35438-be23-4af2-a722-81e44886b3dc" />|
+|<img width="1272" height="712" alt="ps4_cropped" src="https://github.com/user-attachments/assets/4d17f253-7a57-4978-8c65-73b6e0c1746b" />|<img width="1272" height="712" alt="ps5_cropped" src="https://github.com/user-attachments/assets/90bc1cb4-557b-480f-8f63-e0e3b1ec1fc1" />|
+
 
 
 
@@ -12,10 +13,7 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
 
 | 2D Carousel | 3D Carousel | Grid|
 |----|----|----|
-|<img width="1272" height="712" alt="2d carousel both_cropped" src="https://github.com/user-attachments/assets/c5642e93-566b-4b10-9fa9-b91bd6fda813" />|<img width="1272" height="712" alt="3d carousel both_cropped" src="https://github.com/user-attachments/assets/c27040e3-f2f2-45a6-b205-a846e85b57a4" />|<img width="1272" height="712" alt="grid_cropped" src="https://github.com/user-attachments/assets/5fb71773-d5f4-4ef5-8507-a2e25af1dae9" />|
-
-
-
+|<img width="1272" height="712" alt="2d carousel both_cropped" src="https://github.com/user-attachments/assets/e58e4068-c9d2-4286-851a-14935bd55264" />|<img width="1272" height="712" alt="3d carousel both_cropped" src="https://github.com/user-attachments/assets/4249a428-2521-40d1-a04e-c2368159f270" />|<img width="1272" height="712" alt="grid_cropped" src="https://github.com/user-attachments/assets/d2c04f37-8324-4974-a850-7f936347af4e" />|
 
 ## **Configuration Options**
 
