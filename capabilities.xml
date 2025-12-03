@@ -56,28 +56,28 @@
 	///
 	-->
 	<variant name="carousel-2d-both">
-		<label>Carousel 2D - Detailed</label>
+		<label>2D Carousel: Metadata &amp; Miximage</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-2d-description">
-		<label>Carousel 2D - Simple (Description)</label>
+		<label>2D Carousel: Metadata</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-2d-mix">
-		<label>Carousel 2D - Simple (Miximage)</label>
+		<label>2D Carousel: Miximage</label>
 		<selectable>true</selectable>
 	</variant>
 	
 	<variant name="carousel-3d-both">
-		<label>Carousel 3D - Detailed</label>
+		<label>3D Carousel: Metadata &amp; Miximage</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-3d-description">
-		<label>Carousel 3D - Simple (Description)</label>
+		<label>3D Carousel: Metadata</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-3d-mix">
-		<label>Carousel 3D - Simple (Miximage)</label>
+		<label>3D Carousel: Miximage</label>
 		<selectable>true</selectable>
 	</variant>
 		
