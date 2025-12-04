@@ -1,6 +1,8 @@
 <theme>
 	<variables>
-		<userName>Rob Zombie</userName>
-		<avatarPath>./resources/avatars/robzombie.webp</avatarPath>
+		<userName>PlayStation-X</userName>
+		<avatarPath>./_inc/images/avatar.webp</avatarPath>
+		<characterOverlayVisible>true</characterOverlayVisible>
+		<systemVideoVisible>true</systemVideoVisible>
 	</variables>
 </theme>

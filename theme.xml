@@ -204,6 +204,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<zIndex>70</zIndex>
 			<audio>true</audio>
 			<pillarboxes>false</pillarboxes>
+			<visible>${systemVideoVisible}</visible>
 		</video>
 	  
 		<text name="system-details">
@@ -260,6 +261,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<size>0 1</size>
 			<path>./_inc/systems/overlays/${system.theme}.webp</path>
 			<zIndex>80</zIndex>
+			<visible>${characterOverlayVisible}</visible>
 		</image>
 		
 		<image name="footer-line">
@@ -579,7 +581,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<pos>0.275 0.45</pos>
 				<maxSize>0.11 0.13</maxSize>
 				<path>./_inc/systems/consoles/${system.theme}.webp</path>
-				<mipmap>true</mipmap>
+				<mipmap>false</mipmap>
 				<metadataElement>true</metadataElement>
 				<zIndex>100</zIndex>
 			</image>
