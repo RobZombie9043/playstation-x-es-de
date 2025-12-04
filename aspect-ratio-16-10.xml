@@ -285,6 +285,7 @@
 		<view name="gamelist">
 			<video name="game-screenshot">
 				<pos>0.016 0.465</pos>
+				<maxSize>0.253 0.329</maxSize>
 			</video>
 				
 			<text name="game-name">
