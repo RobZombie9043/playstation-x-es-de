@@ -601,7 +601,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-both">
 		<view name="gamelist">
 			<carousel name="game-carousel">
-				<imageType>3dbox</imageType>
+				<imageType>3dbox, cover</imageType>
 			</carousel>
 		</view>
 	</variant>
