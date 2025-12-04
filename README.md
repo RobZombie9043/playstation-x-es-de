@@ -62,9 +62,13 @@ A custom color scheme lets you to modify the user avatar and username displayed 
    /ES-DE/themes/playstation-x-es-de/theme-customizations/customizations.xml
    ```
 
-3) Edit the properites in `customizations.xml` to display your custom avatar and username. Some avatars have been included inside the `ES-DE/themes/playstation-x-es-de/resources/avatars` folder or you can add your own inside the `theme-customization` folder.
+3) Edit the properites in `customizations.xml` to make theme customizations:
+   - <userName> - the user name to be displayed
+   - <avatarPath> - path to a custom avatar image to be displayed (Some avatars have been included inside the `ES-DE/themes/playstation-x-es-de/resources/avatars` folder or you can add your own inside the `theme-customization` folder)
+   - <characterOverlayVisible> - Set to false to disable the character overlays on system view
+   - <systemVideoVisible> - Set to false to disable the videos on system view   
     
-4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `PS4 - Custom` or `PS5 - Custom` and you should see your custom avatar and username display.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
+4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `PS4 - Custom` or `PS5 - Custom` and you should see your customizations.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
 
 ## Credits
 
