@@ -1,8 +1,0 @@
-<theme>
-	<variables>
-		<userName>PlayStation-X</userName>
-		<avatarPath>./_inc/images/avatar.webp</avatarPath>
-		<characterOverlayVisible>true</characterOverlayVisible>
-		<systemVideoVisible>true</systemVideoVisible>
-	</variables>
-</theme>

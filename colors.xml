@@ -10,7 +10,10 @@
 			<systemNamePosYMedium>0.465</systemNamePosYMedium>
 			<systemNamePosYLarge>0.495</systemNamePosYLarge>
 			<iconRadius>0</iconRadius>
-			<customizationsPath>./default.xml</customizationsPath>
+			<userName>PlayStation-X</userName>
+			<avatarPath>./_inc/images/avatar.webp</avatarPath>
+			<characterOverlayVisible>true</characterOverlayVisible>
+			<systemVideoVisible>true</systemVideoVisible>
 		</variables>
     </colorScheme>
 	<colorScheme name="ps5, ps5-custom">
@@ -24,7 +27,10 @@
 			<systemNamePosYMedium>0.395</systemNamePosYMedium>
 			<systemNamePosYLarge>0.420</systemNamePosYLarge>
 			<iconRadius>${carouselRadius}</iconRadius>
-			<customizationsPath>./default.xml</customizationsPath>
+			<userName>PlayStation-X</userName>
+			<avatarPath>./_inc/images/avatar.webp</avatarPath>
+			<characterOverlayVisible>true</characterOverlayVisible>
+			<systemVideoVisible>true</systemVideoVisible>
 		</variables>
     </colorScheme>
 	
