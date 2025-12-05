@@ -68,33 +68,26 @@
 		</image>
 		
 		<video name="system_video">
-			<maxSize>0.355 0.24</maxSize>
+			<maxSize>0.455 0.35</maxSize>
 		</video>
 	  
 		<text name="system-details">
-			<pos>0.387 0.53</pos>
-			<size>0.597 0.06</size>
+			<pos>0.487 0.53</pos>
+			<size>0.497 0.06</size>
 		</text>
 		
 		<text name="system-description">
-			<pos>0.387 0.575</pos>
-			<size>0.597 0.2</size>
+			<pos>0.487 0.575</pos>
+			<size>0.497 0.25</size>
 			<container>true</container>
-		</text>
-		<text name="system-description2">
-			<size>0.6 0.2125</size>
 		</text>
 		
 		<image name="logo">
-			<origin>1 0.5</origin>
-			<pos>0.984 0.8545</pos>
-			<maxSize>0.2 0.12</maxSize>
+			<visible>false</visible>
 		</image>
 		
 		<image name="console">
-			<origin>0 0.5</origin>
-			<pos>0.016 0.8545</pos>
-			<maxSize>0.2 0.12</maxSize>
+			<visible>false</visible>
 		</image>
 	</view>
 	
