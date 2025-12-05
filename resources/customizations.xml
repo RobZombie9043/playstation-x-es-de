@@ -1,8 +1,12 @@
 <theme>
 	<variables>
+		<!-- Username and avatar customizations -->
 		<userName>PlayStation-X</userName>
 		<avatarPath>./_inc/images/avatar.webp</avatarPath>
-		<characterOverlayVisible>true</characterOverlayVisible>
-		<systemVideoVisible>true</systemVideoVisible>
+		
+		<!-- System View customizations -->
+		<characterOverlayVisible>true</characterOverlayVisible>		<!-- remove character overlay art -->
+		<systemVideoVisible>true</systemVideoVisible>				<!-- remove advert video -->
+		<secondaryDescriptionPos>false</secondaryDescriptionPos>	<!-- shift description text left, useful to combine with removing videos -->
 	</variables>
 </theme>

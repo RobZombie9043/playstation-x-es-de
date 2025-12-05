@@ -14,6 +14,7 @@
 			<avatarPath>./_inc/images/avatar.webp</avatarPath>
 			<characterOverlayVisible>true</characterOverlayVisible>
 			<systemVideoVisible>true</systemVideoVisible>
+			<secondaryDescriptionPos>false</secondaryDescriptionPos>
 		</variables>
     </colorScheme>
 	<colorScheme name="ps5, ps5-custom">
@@ -31,6 +32,7 @@
 			<avatarPath>./_inc/images/avatar.webp</avatarPath>
 			<characterOverlayVisible>true</characterOverlayVisible>
 			<systemVideoVisible>true</systemVideoVisible>
+			<secondaryDescriptionPos>false</secondaryDescriptionPos>
 		</variables>
     </colorScheme>
 	

@@ -207,7 +207,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<visible>${systemVideoVisible}</visible>
 		</video>
 	  
-		<text name="system-details">
+		<text name="system-details, system-details2">
 			<origin>0 0</origin>
 			<pos>0.257 0.53</pos>
 			<size>0 0.06</size>
@@ -221,9 +221,15 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<letterCase>uppercase</letterCase>
 			<lineSpacing>1</lineSpacing>
 			<zIndex>90</zIndex>
+			<visible>${systemVideoVisible}</visible>
+		</text>
+		<text name="system-details2">
+			<pos>0.016 0.53</pos>
+			<size>0 0.06</size>
+			<visible>${secondaryDescriptionPos}</visible>
 		</text>
 		
-		<text name="system-description">
+		<text name="system-description, system-description2">
 			<origin>0 0</origin>
 			<pos>0.257 0.575</pos>
 			<size>0.433 0.156</size>
@@ -237,6 +243,12 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<lineSpacing>1.25</lineSpacing>
 			<container>true</container>
 			<zIndex>90</zIndex>
+			<visible>${systemVideoVisible}</visible>
+		</text>
+		<text name="system-description2">
+			<pos>0.016 0.575</pos>
+			<size>0.433 0.156</size>
+			<visible>${secondaryDescriptionPos}</visible>
 		</text>
 		
 		<image name="logo">
