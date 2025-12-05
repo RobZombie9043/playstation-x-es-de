@@ -232,7 +232,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		<text name="system-description, system-description2">
 			<origin>0 0</origin>
 			<pos>0.257 0.575</pos>
-			<size>0.433 0.156</size>
+			<size>0.433 0.2</size>
 			<text>${systemDescription}</text>
 			<backgroundColor>00000000</backgroundColor>
 			<horizontalAlignment>left</horizontalAlignment>
