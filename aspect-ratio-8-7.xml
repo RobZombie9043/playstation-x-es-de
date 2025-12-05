@@ -81,6 +81,9 @@
 			<size>0.597 0.2</size>
 			<container>true</container>
 		</text>
+		<text name="system-description2">
+			<size>0.6 0.1795</size>
+		</text>
 		
 		<image name="logo">
 			<origin>1 0.5</origin>

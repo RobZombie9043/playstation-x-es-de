@@ -247,7 +247,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</text>
 		<text name="system-description2">
 			<pos>0.016 0.575</pos>
-			<size>0.433 0.1795</size>
+			<size>0.6 0.315</size>
 			<visible>${secondaryDescriptionPos}</visible>
 		</text>
 		
