@@ -55,12 +55,16 @@
 	Variants
 	///
 	-->
-	<variant name="carousel-2d-both">
-		<label>2D Carousel: Metadata &amp; Miximage</label>
-		<selectable>true</selectable>
-	</variant>
 	<variant name="carousel-2d-description">
 		<label>2D Carousel: Metadata</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-2d-description-video">
+		<label>2D Carousel: Metadata (Video Background)</label>
+		<selectable>true</selectable>
+	</variant>	
+	<variant name="carousel-2d-both">
+		<label>2D Carousel: Metadata &amp; Miximage</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-2d-mix">
@@ -68,12 +72,16 @@
 		<selectable>true</selectable>
 	</variant>
 	
-	<variant name="carousel-3d-both">
-		<label>3D Carousel: Metadata &amp; Miximage</label>
-		<selectable>true</selectable>
-	</variant>
 	<variant name="carousel-3d-description">
 		<label>3D Carousel: Metadata</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-3d-description-video">
+		<label>3D Carousel: Metadata (Video Background)</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="carousel-3d-both">
+		<label>3D Carousel: Metadata &amp; Miximage</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="carousel-3d-mix">

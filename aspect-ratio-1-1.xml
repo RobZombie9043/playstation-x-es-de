@@ -123,7 +123,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-both, carousel-3d-mix, carousel-3d-description, carousel-3d-both">
+	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both">
 		<view name="gamelist">			
 			<image name="game-miximage">
 				<pos>0.2 0.3</pos>
@@ -136,7 +136,7 @@
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-description, carousel-3d-description">
+	<variant name="carousel-2d-description, carousel-2d-description-video, carousel-3d-description, carousel-3d-description-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.025 0.14</pos>

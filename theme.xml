@@ -548,7 +548,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	-->
 	<include>./_inc/systems/coversize-carousel/${systemCoverSize}.xml</include>
 	
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-both, carousel-3d-mix, carousel-3d-description, carousel-3d-both">
+	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both">
 		<view name="gamelist">
 			<image name="system-overlay">
 				<origin>0.5 0.5</origin>
@@ -604,7 +604,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>		
 	</variant>
 	
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-both">
+	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>cover</imageType>
@@ -612,7 +612,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-both">
+	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>3dbox, cover</imageType>
@@ -620,7 +620,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-description, carousel-3d-description">
+	<variant name="carousel-2d-description, carousel-2d-description-video, carousel-3d-description, carousel-3d-description-video">
 		<view name="gamelist">
 			<image name="game-miximage">
 				<visible>false</visible>
@@ -744,6 +744,23 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<badges name="carousel-badges">
 				<pos>0.3 0.435</pos>
 			</badges>
+		</view>
+	</variant>
+	
+	<variant name="carousel-2d-description-video, carousel-3d-description-video">
+		<view name="gamelist">
+			<image name="game-background-art">
+				<visible>false</visible>
+			</image>
+			<video name="game-background-video">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<cropSize>1 1</cropSize>
+				<imageType>fanart, screenshot</imageType>
+				<delay>0</delay>
+				<scrollFadeIn>true</scrollFadeIn>
+				<zIndex>45</zIndex>
+			</video>
 		</view>
 	</variant>
 	
