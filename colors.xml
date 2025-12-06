@@ -8,6 +8,10 @@
 			<secondaryDescriptionPos>false</secondaryDescriptionPos>
 			<systemLogoVisible>true</systemLogoVisible>
 			<systemConsoleVisible>true</systemConsoleVisible>
+			<systemBackgroundSolidColor>false</systemBackgroundSolidColor>	
+			<systemBackgroundColor>000000</systemBackgroundColor>
+			<gameBackgroundSolidColor>false</gameBackgroundSolidColor>
+			<gameBackgroundColor>000000</gameBackgroundColor>
 		</variables>	
 	</colorScheme>
 	<colorScheme name="ps4, ps4-custom">

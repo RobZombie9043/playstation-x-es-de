@@ -100,7 +100,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 
 	<!--
 	///
-	System View - Carousel
+	System View
 	///
 	-->
 	<include>./_inc/systems/systemiconsize/systemIconSize.xml</include>
@@ -113,6 +113,16 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<default>./_inc/systems/background/_default.webp</default>
 			<path>./_inc/systems/background/${system.theme}.webp</path>
 			<zIndex>45</zIndex>
+		</image>
+		
+		<image name="game-background-custom">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<path>${spacerImage}</path>
+			<color>${systemBackgroundColor}</color>
+			<zIndex>49</zIndex>
+			<visible>${systemBackgroundSolidColor}</visible>
 		</image>
 		
 		<image name="system-overlay">
@@ -327,6 +337,16 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<cropSize>1 1</cropSize>
 			<imageType>fanart, screenshot</imageType>
 			<zIndex>45</zIndex>
+		</image>
+		
+		<image name="game-background-custom">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<path>${spacerImage}</path>
+			<color>${gameBackgroundColor}</color>
+			<zIndex>49</zIndex>
+			<visible>${gameBackgroundSolidColor}</visible>
 		</image>
 		
 		<image name="system-icon">
