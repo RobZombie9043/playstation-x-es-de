@@ -20,12 +20,14 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
   
 - `Theme Variant` - sets the theme variant adjusting the gamelist view. 
-   - `Carousel 2D - Detailed` - Gamelist view with a carousel using 2D box art and displaying miximage and description metadata
-   - `Carousel 2D - Simple (Description)` - Gamelist view with a carousel using 2D box art and displaying description metadata
-   - `Carousel 2D - Simple (Miximage)` - Gamelist view with a carousel using 2D box art and displaying miximage media and simple metadata
-   - `Carousel 3D - Detailed` - Gamelist view with a carousel using 3D box art annd displaying miximage and description metadata
-   - `Carousel 3D - Simple (Description)` - Gamelist view with a carousel using 3D box art and displaying description metadata
-   - `Carousel 3D - Simple (Miximage)` - Gamelist view with a carousel using 3D box art and displaying miximage media and simple metadata
+   - `2D Carousel: Metadata` - Gamelist view with a carousel using 2D box art and displaying description metadata
+   - `2D Carousel: Metadata (Video Background)` - Gamelist view with a carousel using 2D box art and displaying description metadata, background plays game video
+   - `2D Carousel: Metadata & Miximage` - Gamelist view with a carousel using 2D box art and displaying miximage and description metadata
+   - `2D Carousel: Metadata & Miximage with video` - Gamelist view with a carousel using 2D box art and displaying miximage with delayed video and description metadata
+   - `3D Carousel: Metadata` - Gamelist view with a carousel using 2D box art and displaying description metadata
+   - `3D Carousel: Metadata (Video Background)` - Gamelist view with a carousel using 2D box art and displaying description metadata, background plays game video
+   - `3D Carousel: Metadata & Miximage` - Gamelist view with a carousel using 2D box art and displaying miximage and description metadata
+   - `3D Carousel: Metadata & Miximage with video` - Gamelist view with a carousel using 2D box art and displaying miximage with delayed video and description metadata
    - `Grid` - Gamelist view with a grid view with metadata
 
  - `Theme Color Scheme` - sets the system view style based on PS4 or PS5. The custom variants allow for avatar and username customization - see customiztion section.
