@@ -68,17 +68,17 @@
 		</image>
 		
 		<video name="system_video">
-			<maxSize>0.405 0.35</maxSize>
+			<maxSize>0.375 0.35</maxSize>
 		</video>
 	  
 		<text name="system-details">
-			<pos>0.437 0.53</pos>
-			<size>0.547 0.06</size>
+			<pos>0.407 0.53</pos>
+			<size>0.577 0.06</size>
 		</text>
 		
 		<text name="system-description">
-			<pos>0.437 0.575</pos>
-			<size>0.547 0.25</size>
+			<pos>0.407 0.575</pos>
+			<size>0.577 0.25</size>
 			<container>true</container>
 		</text>
 		

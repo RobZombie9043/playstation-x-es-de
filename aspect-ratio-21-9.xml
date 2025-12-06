@@ -40,7 +40,19 @@
 		<carousel name="system-carousel">
 			<imageCornerRadius>${iconRadius}</imageCornerRadius>
 		</carousel>
-		
+		<video name="system_video">
+			<origin>1 0</origin>
+			<pos>0.241 0.53</pos>
+			<maxSize>0.225 0.36</maxSize>
+		</video>
+		<text name="system-details">
+			<pos>0.257 0.53</pos>
+			<size>0 0.06</size>
+		</text>
+		<text name="system-description">
+			<pos>0.257 0.575</pos>
+			<size>0.433 0.2</size>
+		</text>
 	</view>
 	
 	<!--

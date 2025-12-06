@@ -57,7 +57,7 @@
 			<size>0 0.9</size>
 		</image>
 		<video name="system_video">
-			<maxSize>0.325 0.338</maxSize>
+			<maxSize>0.325 0.358</maxSize>
 		</video>
 		<text name="system-details">
 			<pos>0.357 0.53</pos>
