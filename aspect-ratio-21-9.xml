@@ -81,7 +81,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-3d-mix, carousel-3d-description, carousel-3d-both, carousel-3d-description-video">
+	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<size>1 0.825</size>
@@ -175,7 +175,7 @@
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-both, carousel-3d-both">
+	<variant name="carousel-2d-both, carousel-2d-both-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<size>0.584 0.06</size>

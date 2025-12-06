@@ -67,9 +67,13 @@
 		<label>2D Carousel: Metadata &amp; Miximage</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="carousel-2d-both-video">
+		<label>2D Carousel: Metadata &amp; Miximage with Video</label>
+		<selectable>true</selectable>
+	</variant>
 	<variant name="carousel-2d-mix">
 		<label>2D Carousel: Miximage</label>
-		<selectable>true</selectable>
+		<selectable>false</selectable>
 	</variant>
 	
 	<variant name="carousel-3d-description">
@@ -84,9 +88,13 @@
 		<label>3D Carousel: Metadata &amp; Miximage</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="carousel-3d-both-video">
+		<label>3D Carousel: Metadata &amp; Miximage with Video</label>
+		<selectable>true</selectable>
+	</variant>
 	<variant name="carousel-3d-mix">
 		<label>3D Carousel: Miximage</label>
-		<selectable>true</selectable>
+		<selectable>false</selectable>
 	</variant>
 		
 	<variant name="grid">

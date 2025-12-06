@@ -548,7 +548,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	-->
 	<include>./_inc/systems/coversize-carousel/${systemCoverSize}.xml</include>
 	
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both">
+	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<image name="system-overlay">
 				<origin>0.5 0.5</origin>
@@ -604,7 +604,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>		
 	</variant>
 	
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both">
+	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>cover</imageType>
@@ -612,7 +612,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both">
+	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>3dbox, cover</imageType>
@@ -707,7 +707,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-both, carousel-3d-both">
+	<variant name="carousel-2d-both, carousel-2d-both-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.3 0.145</pos>
@@ -744,6 +744,25 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<badges name="carousel-badges">
 				<pos>0.3 0.435</pos>
 			</badges>
+		</view>
+	</variant>
+	
+	<variant name="carousel-2d-both-video, carousel-3d-both-video">
+		<view name="gamelist">
+			<image name="game-miximage">
+				<visible>false</visible>
+			</image>
+			<video name="game-miximage-video">
+				<origin>0.5 0.5</origin>
+				<pos>0.15 0.3</pos>
+				<maxSize>0.2 0.3</maxSize>
+				<imageType>miximage</imageType>
+				<pillarboxes>false</pillarboxes>
+				<zIndex>99</zIndex>
+			</video>
+			<image name="console">
+				<visible>false</visible>
+			</image>
 		</view>
 	</variant>
 	

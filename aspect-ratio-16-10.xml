@@ -197,10 +197,8 @@
 			</badges>
 		</view>
 	</variant>
-	
-	
-	
-	<variant name="carousel-2d-both, carousel-3d-both">
+		
+	<variant name="carousel-2d-both, carousel-2d-both-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.3 0.145</pos>
