@@ -1,4 +1,15 @@
 <theme>
+	<colorScheme name="ps4, ps4-custom, ps5, ps5-custom">
+		<variables>	
+			<userName>PlayStation-X</userName>
+			<avatarPath>./_inc/images/avatar.webp</avatarPath>
+			<characterOverlayVisible>true</characterOverlayVisible>
+			<systemVideoVisible>true</systemVideoVisible>
+			<secondaryDescriptionPos>false</secondaryDescriptionPos>
+			<systemLogoVisible>true</systemLogoVisible>
+			<systemConsoleVisible>true</systemConsoleVisible>
+		</variables>	
+	</colorScheme>
 	<colorScheme name="ps4, ps4-custom">
         <variables>
 			<startVisible>true</startVisible>
@@ -10,11 +21,6 @@
 			<systemNamePosYMedium>0.465</systemNamePosYMedium>
 			<systemNamePosYLarge>0.495</systemNamePosYLarge>
 			<iconRadius>0</iconRadius>
-			<userName>PlayStation-X</userName>
-			<avatarPath>./_inc/images/avatar.webp</avatarPath>
-			<characterOverlayVisible>true</characterOverlayVisible>
-			<systemVideoVisible>true</systemVideoVisible>
-			<secondaryDescriptionPos>false</secondaryDescriptionPos>
 		</variables>
     </colorScheme>
 	<colorScheme name="ps5, ps5-custom">
@@ -28,11 +34,6 @@
 			<systemNamePosYMedium>0.395</systemNamePosYMedium>
 			<systemNamePosYLarge>0.420</systemNamePosYLarge>
 			<iconRadius>${carouselRadius}</iconRadius>
-			<userName>PlayStation-X</userName>
-			<avatarPath>./_inc/images/avatar.webp</avatarPath>
-			<characterOverlayVisible>true</characterOverlayVisible>
-			<systemVideoVisible>true</systemVideoVisible>
-			<secondaryDescriptionPos>false</secondaryDescriptionPos>
 		</variables>
     </colorScheme>
 	

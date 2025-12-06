@@ -257,6 +257,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<maxSize>0.16 0.12</maxSize>
 			<path>./_inc/systems/logos/${system.theme}.svg</path>
 			<zIndex>100</zIndex>
+			<visible>${systemLogoVisible}</visible>
 		</image>
 		
 		<image name="console">
@@ -265,6 +266,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<maxSize>0.16 0.25</maxSize>
 			<path>./_inc/systems/consoles/${system.theme}.webp</path>
 			<zIndex>99</zIndex>
+			<visible>${systemConsoleVisible}</visible>
 		</image>
 		
 		<image name="overlay-arts">

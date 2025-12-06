@@ -5,8 +5,10 @@
 		<avatarPath>./_inc/images/avatar.webp</avatarPath>
 		
 		<!-- System View customizations -->
-		<characterOverlayVisible>true</characterOverlayVisible>		<!-- remove character overlay art -->
-		<systemVideoVisible>true</systemVideoVisible>				<!-- remove advert video -->
+		<characterOverlayVisible>true</characterOverlayVisible>		<!-- show character overlay art -->
+		<systemVideoVisible>true</systemVideoVisible>				<!-- show advert video -->
 		<secondaryDescriptionPos>false</secondaryDescriptionPos>	<!-- shift description text left, useful to combine with removing videos -->
+		<systemLogoVisible>true</systemLogoVisible>					<!-- show system logo -->
+		<systemConsoleVisible>true</systemConsoleVisible>			<!-- show system console art -->
 	</variables>
 </theme>
