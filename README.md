@@ -53,7 +53,7 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
    - `32:9`
 
 ## **Customization Options**
-A custom color scheme lets you to modify the user avatar and username displayed in theme while also allowing you to continue to get updates from the theme downloader.
+A custom color scheme lets you modify some theme options while also allowing you to continue to get updates from the theme downloader.
 
 1) In the resources folder you will find a template file called [customizations.xml](https://github.com/RobZombie9043/playstation-x-es-de/blob/main/resources/customizations.xml)
 
