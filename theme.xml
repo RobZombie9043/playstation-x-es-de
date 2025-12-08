@@ -124,6 +124,26 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<zIndex>49</zIndex>
 			<visible>${systemBackgroundSolidColor}</visible>
 		</image>
+		<image name="game-background-gradient1">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 0.15</size>
+			<path>${spacerImage}</path>
+			<color>00000000</color>
+			<colorEnd>0000004D</colorEnd>
+			<gradientType>vertical</gradientType>
+			<zIndex>81</zIndex>
+		</image>
+		<image name="game-background-gradient2">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.65</pos>
+			<size>1 0.28</size>
+			<path>${spacerImage}</path>
+			<color>0000004D</color>
+			<colorEnd>00000000</colorEnd>
+			<gradientType>vertical</gradientType>
+			<zIndex>81</zIndex>
+		</image>
 		
 		<image name="system-overlay">
 			<origin>0.5 0.5</origin>
@@ -211,7 +231,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<path>./_inc/systems/videos/${system.theme}.mp4</path>
 			<default>./_inc/systems/videos/no-video.mp4</default>
 			<delay>0.3</delay>
-			<zIndex>70</zIndex>
+			<zIndex>82</zIndex>
 			<audio>true</audio>
 			<pillarboxes>false</pillarboxes>
 			<visible>${systemVideoVisible}</visible>
