@@ -74,6 +74,7 @@ System View customizations:
    - `<characterOverlayVisible>` - Set to false to disable the character overlays on system view
    - `<systemVideoVisible>` - Set to false to disable the videos on system view
    - `<secondaryDescriptionPos>` - Set to true to shift description text left, useful to combine with removing videos
+   - `<systemVideoAudio>` - Set to false to disable the audio of the system view videos
    - `<systemLogoVisible>` - Set to false to disable the system logo on system view
    - `<systemConsoleVisible>` - Set to false to disable the system console art on system view
    - `<systemBackgroundSolidColor>` - Set to use a solid color background in system view
@@ -82,6 +83,7 @@ System View customizations:
 Gamelist View cutsomizations:
    - `<gameBackgroundSolidColor>` - Set to use a solid color background in gamelist view
    - `<gameBackgroundColor>` - sets the color background to be used for above setting
+   - `<gameVideoAudio>` - Set to false to disable the audio of the gamelist view videos
 
 4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `PS4 - Custom` or `PS5 - Custom` and you should see your customizations.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
 
