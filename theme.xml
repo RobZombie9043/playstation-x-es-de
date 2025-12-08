@@ -232,7 +232,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<default>./_inc/systems/videos/no-video.mp4</default>
 			<delay>0.3</delay>
 			<zIndex>82</zIndex>
-			<audio>true</audio>
+			<audio>${systemVideoAudio}</audio>
 			<pillarboxes>false</pillarboxes>
 			<visible>${systemVideoVisible}</visible>
 		</video>
@@ -798,6 +798,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<maxSize>0.2 0.3</maxSize>
 				<imageType>miximage</imageType>
 				<pillarboxes>false</pillarboxes>
+				<audio>${gameVideoAudio}</audio>
 				<zIndex>99</zIndex>
 			</video>
 			<image name="console">
@@ -818,6 +819,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<imageType>fanart, screenshot</imageType>
 				<delay>0</delay>
 				<scrollFadeIn>true</scrollFadeIn>
+				<audio>${gameVideoAudio}</audio>
 				<zIndex>45</zIndex>
 			</video>
 		</view>
@@ -856,6 +858,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<maxSize>0.253 0.33</maxSize>
 				<imageType>screenshot</imageType>
 				<pillarboxes>false</pillarboxes>
+				<audio>${gameVideoAudio}</audio>
 				<zIndex>99</zIndex>
 			</video>
 			

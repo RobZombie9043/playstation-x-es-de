@@ -8,6 +8,7 @@
 		<characterOverlayVisible>true</characterOverlayVisible>			<!-- show character overlay art -->
 		<systemVideoVisible>true</systemVideoVisible>					<!-- show advert video -->
 		<secondaryDescriptionPos>false</secondaryDescriptionPos>		<!-- shift description text left, useful to combine with removing videos -->
+		<systemVideoAudio>true</systemVideoAudio>						<!-- play advert video audio -->
 		<systemLogoVisible>true</systemLogoVisible>						<!-- show system logo -->
 		<systemConsoleVisible>true</systemConsoleVisible>				<!-- show system console art -->
 		<systemBackgroundSolidColor>false</systemBackgroundSolidColor>	<!-- use a solid color background in system view -->
@@ -16,6 +17,7 @@
 		<!-- Gamelist View customizations -->
 		<gameBackgroundSolidColor>false</gameBackgroundSolidColor>		<!-- use a solid color background in gamelist view -->
 		<gameBackgroundColor>000000</gameBackgroundColor>				<!-- color background to be used -->
+		<gameVideoAudio>true</gameVideoAudio>							<!-- play game video audio -->
 		
 	</variables>
 </theme>

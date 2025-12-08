@@ -6,12 +6,14 @@
 			<characterOverlayVisible>true</characterOverlayVisible>
 			<systemVideoVisible>true</systemVideoVisible>
 			<secondaryDescriptionPos>false</secondaryDescriptionPos>
+			<systemVideoAudio>true</systemVideoAudio>
 			<systemLogoVisible>true</systemLogoVisible>
 			<systemConsoleVisible>true</systemConsoleVisible>
 			<systemBackgroundSolidColor>false</systemBackgroundSolidColor>	
 			<systemBackgroundColor>000000</systemBackgroundColor>
 			<gameBackgroundSolidColor>false</gameBackgroundSolidColor>
 			<gameBackgroundColor>000000</gameBackgroundColor>
+			<gameVideoAudio>true</gameVideoAudio>
 		</variables>	
 	</colorScheme>
 	<colorScheme name="ps4, ps4-custom">
