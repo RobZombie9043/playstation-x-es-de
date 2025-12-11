@@ -66,7 +66,7 @@ A custom color scheme lets you modify some theme options while also allowing you
    For the Android theme downloader   version this would be:
    
     ```
-    Android/data/org.es_de.frontend/files/themes/playstation-x-es-de
+    Android/data/org.es_de.frontend/files/themes/playstation-x-es-de/theme-customizations/customizations.xml
    ```
 
 4) Edit the properties in `customizations.xml` to make theme customizations
