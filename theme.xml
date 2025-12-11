@@ -9,6 +9,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./theme-customizations/metadata-custom/${system.theme}.xml</include>
 	<include>./colors.xml</include>
 	
 	<variables>
