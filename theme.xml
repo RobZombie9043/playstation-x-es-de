@@ -8,8 +8,10 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 <theme>
 
 	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-global/_labels.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
 	<include>./theme-customizations/metadata-custom/${system.theme}.xml</include>
+	<include>./_inc/systems/metadata-global/_labels.xml</include>
 	<include>./colors.xml</include>
 	
 	<variables>
@@ -380,56 +382,63 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</image>
 		
 		<text name="game-playcount-label">
-			<origin>0 0.5</origin>
-			<pos>0.21 0.068</pos>
-			<size>0 0.05</size>
-			<text>Times Played:</text>
+			<origin>0.5 1</origin>
+			<!-- <pos>0.21 0.068</pos> -->
+			<size>0.15 0.08</size>
+			<text>${langLabelTimePlay}:</text>
 			<backgroundColor>00000000</backgroundColor>
-			<horizontalAlignment>left</horizontalAlignment>
-			<verticalAlignment>center</verticalAlignment>
+			<horizontalAlignment>center</horizontalAlignment>
+			<verticalAlignment>bottom</verticalAlignment>
 			<color>FFFFFF</color>
-			<fontPath>${fontSSTLight}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
+			<fontPath>${fontSSTBold}</fontPath>
+			<fontSize>${fontSizeCaption}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<letterCase>uppercase</letterCase>
 			<zIndex>90</zIndex>
 		</text>
 		<text name="game-playcount">
-			<origin>0 0.5</origin>
-			<pos>0.32 0.068</pos>
+			<origin>0.5 0</origin>
+			<!-- <pos>0.32 0.068</pos> -->
 			<size>0 0.05</size>
 			<metadata>playcount</metadata>
 			<backgroundColor>00000000</backgroundColor>
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
-			<color>FFFFFF</color>
-			<fontPath>${fontSSTLight}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
+			<color>fcca11</color>
+			<fontPath>${fontSSTBold}</fontPath>
+			<fontSize>${fontSizeCaption}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
 			<zIndex>90</zIndex>
 		</text>
 		
 		<text name="game-playtime-label">
-			<origin>0 0.5</origin>
-			<pos>0.365 0.068</pos>
-			<size>0 0.05</size>
-			<text>Playtime:</text>
+			<origin>0.5 1</origin>
+			<!-- <pos>0.365 0.068</pos> -->
+			<size>0.15 0.08</size>
+			<text>${langLabelPlayTime}:</text>
 			<backgroundColor>00000000</backgroundColor>
-			<horizontalAlignment>left</horizontalAlignment>
-			<verticalAlignment>center</verticalAlignment>
+			<horizontalAlignment>center</horizontalAlignment>
+			<verticalAlignment>bottom</verticalAlignment>
 			<color>FFFFFF</color>
-			<fontPath>${fontSSTLight}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
+			<fontPath>${fontSSTBold}</fontPath>
+			<fontSize>${fontSizeCaption}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
+			<letterCase>uppercase</letterCase>
 			<zIndex>90</zIndex>
 		</text>
 		<text name="game-playtime">
-			<origin>0 0.5</origin>
-			<pos>0.44 0.068</pos>
+			<origin>0.5 0</origin>
+			<!-- <pos>0.44 0.068</pos> -->
 			<size>0 0.05</size>
 			<metadata>playtime</metadata>
+			<defaultValue>${langLabelNever}</defaultValue>
 			<backgroundColor>00000000</backgroundColor>
 			<horizontalAlignment>left</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
-			<color>FFFFFF</color>
-			<fontPath>${fontSSTLight}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
+			<color>fcca11</color>
+			<fontPath>${fontSSTBold}</fontPath>
+			<fontSize>${fontSizeCaption}</fontSize>
+			<lineSpacing>1.1</lineSpacing>
 			<zIndex>90</zIndex>
 		</text>
 		

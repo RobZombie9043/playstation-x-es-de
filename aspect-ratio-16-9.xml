@@ -38,17 +38,19 @@
 	-->
 	<view name="gamelist">
 		<text name="game-playcount-label">
-			<pos>0.24 0.068</pos>
+			<pos>0.32 0.068</pos>
+			<size>0.16 0.08</size>
 		</text>
 		<text name="game-playcount">
-			<pos>0.3525 0.068</pos>
+			<pos>0.32 0.068</pos>
 		</text>
 		
 		<text name="game-playtime-label">
-			<pos>0.4225 0.068</pos>
+			<pos>0.49 0.068</pos>
+			<size>0.16 0.08</size>
 		</text>
 		<text name="game-playtime">
-			<pos>0.4975 0.068</pos>
+			<pos>0.49 0.068</pos>
 		</text>
 	</view>
 	

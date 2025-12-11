@@ -111,10 +111,11 @@
 		</text>
 		
 		<text name="game-playtime-label">
-			<pos>0.25 0.068</pos>
+			<pos>0.37 0.068</pos>
+			<size>0.24 0.08</size>
 		</text>
 		<text name="game-playtime">
-			<pos>0.38 0.068</pos>
+			<pos>0.37 0.068</pos>
 		</text>
 	</view>
 	

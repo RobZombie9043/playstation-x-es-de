@@ -13,6 +13,7 @@
         <langLabelFavorites>Favorites</langLabelFavorites>
         <langLabelLastPlay>Last Played</langLabelLastPlay>
         <langLabelTimePlay>Times Played</langLabelTimePlay>
+		<langLabelPlayTime>Play Time</langLabelPlayTime>
         <langLabelSysName>System Name</langLabelSysName>
         <langLabelCompleted>Completed</langLabelCompleted>
         <langLabelChild>Child Safe</langLabelChild>
@@ -57,6 +58,7 @@
             <langLabelFavorites>المفضلة</langLabelFavorites>
             <langLabelLastPlay>آخر تشغيل</langLabelLastPlay>
             <langLabelTimePlay>الأوقات تم التشغيل</langLabelTimePlay>
+			<langLabelPlayTime>وقت اللعب</langLabelPlayTime>
             <langLabelSysName>اسم النظام</langLabelSysName>
             <langLabelCompleted>مكتمل</langLabelCompleted>
             <langLabelChild>آمن للأطفال</langLabelChild>
@@ -97,6 +99,7 @@
             <langLabelFavorites>Omiljene</langLabelFavorites>
             <langLabelLastPlay>Posljednje igrano</langLabelLastPlay>
             <langLabelTimePlay>Broj igranih puta</langLabelTimePlay>
+			<langLabelPlayTime>Vrijeme Za Igranje</langLabelPlayTime>
             <langLabelSysName>Sistem Naziv</langLabelSysName>
             <langLabelCompleted>Završeno</langLabelCompleted>
             <langLabelChild>Bezbedno za decu</langLabelChild>
@@ -137,6 +140,7 @@
             <langLabelFavorites>Preferits</langLabelFavorites>
             <langLabelLastPlay>Última reproducció</langLabelLastPlay>
             <langLabelTimePlay>Veces jugades</langLabelTimePlay>
+			<langLabelPlayTime>Temps De Joc</langLabelPlayTime>
             <langLabelSysName>Nom del sistema</langLabelSysName>
             <langLabelCompleted>Completat</langLabelCompleted>
             <langLabelChild>Segur per a nens</langLabelChild>
@@ -177,6 +181,7 @@
             <langLabelFavorites>Favoriten</langLabelFavorites>
             <langLabelLastPlay>Zuletzt Gespielt</langLabelLastPlay>
             <langLabelTimePlay>Anzahl gespielter Spiele</langLabelTimePlay>
+			<langLabelPlayTime>Spielzeit</langLabelPlayTime>
             <langLabelSysName>Systemname</langLabelSysName>
             <langLabelCompleted>Vollendet</langLabelCompleted>
             <langLabelChild>Kindersicher</langLabelChild>
@@ -217,6 +222,7 @@
             <langLabelFavorites>Favoritos</langLabelFavorites>
             <langLabelLastPlay>Jugado por última vez</langLabelLastPlay>
             <langLabelTimePlay>Tiempos jugados</langLabelTimePlay>
+			<langLabelPlayTime>Tiempo De Juego</langLabelPlayTime>
             <langLabelSysName>Nombre del sistema</langLabelSysName>
             <langLabelCompleted>Terminado</langLabelCompleted>
             <langLabelChild>Seguro para niños</langLabelChild>
@@ -257,6 +263,7 @@
             <langLabelFavorites>Favoris</langLabelFavorites>
             <langLabelLastPlay>Dernière lecture</langLabelLastPlay>
             <langLabelTimePlay>Temps joués</langLabelTimePlay>
+			<langLabelPlayTime>Temps Joué</langLabelPlayTime>
             <langLabelSysName>Nom du système</langLabelSysName>
             <langLabelCompleted>Complété</langLabelCompleted>
             <langLabelChild>Sécurité des enfants</langLabelChild>
@@ -297,6 +304,7 @@
             <langLabelFavorites>Favoriti</langLabelFavorites>
             <langLabelLastPlay>Zadnje igrano</langLabelLastPlay>
             <langLabelTimePlay>Broj igranih puta</langLabelTimePlay>
+			<langLabelPlayTime>Vrijeme Igranja</langLabelPlayTime>
             <langLabelSysName>Sustav Naziv</langLabelSysName>
             <langLabelCompleted>Završeno</langLabelCompleted>
             <langLabelChild>Sigurno za djecu</langLabelChild>
@@ -338,6 +346,7 @@
             <langLabelFavorites>Preferiti</langLabelFavorites>
             <langLabelLastPlay>Ostatnio odtwarzane</langLabelLastPlay>
             <langLabelTimePlay>Tempi giocati</langLabelTimePlay>
+			<langLabelPlayTime>Tempo Di Gioco</langLabelPlayTime>
             <langLabelSysName>Nome del sistema</langLabelSysName>
             <langLabelCompleted>Completato</langLabelCompleted>
             <langLabelChild>Sicuro per i bambini</langLabelChild>
@@ -378,6 +387,7 @@
             <langLabelFavorites>Favorieten</langLabelFavorites>
             <langLabelLastPlay>Laatst gespeeld</langLabelLastPlay>
             <langLabelTimePlay>Aantal keer gespeeld</langLabelTimePlay>
+			<langLabelPlayTime>Speltijd</langLabelPlayTime>
             <langLabelSysName>Systeemnaam</langLabelSysName>
             <langLabelCompleted>Voltooid</langLabelCompleted>
             <langLabelChild>Kindveilig</langLabelChild>
@@ -418,6 +428,7 @@
             <langLabelFavorites>Ulubione</langLabelFavorites>
             <langLabelLastPlay>Ostatnio odtwarzane</langLabelLastPlay>
             <langLabelTimePlay>Liczba zagrań</langLabelTimePlay>
+			<langLabelPlayTime>Czas Rozgrywki</langLabelPlayTime>
             <langLabelSysName>Nazwa systemu</langLabelSysName>
             <langLabelCompleted>Zakończony</langLabelCompleted>
             <langLabelChild>Sicuro per i bambini</langLabelChild>
@@ -458,6 +469,7 @@
             <langLabelFavorites>Favoritos</langLabelFavorites>
             <langLabelLastPlay>Jogado pela última vez</langLabelLastPlay>
             <langLabelTimePlay>Tempos jogados</langLabelTimePlay>
+			<langLabelPlayTime>Tempo De Jogo</langLabelPlayTime>
             <langLabelSysName>Nome do sistema</langLabelSysName>
             <langLabelCompleted>Concluído</langLabelCompleted>
             <langLabelChild>Seguro para crianças</langLabelChild>
@@ -498,6 +510,7 @@
             <langLabelFavorites>Favoritos</langLabelFavorites>
             <langLabelLastPlay>Última partida</langLabelLastPlay>
             <langLabelTimePlay>Número de partidas</langLabelTimePlay>
+			<langLabelPlayTime>Tempo De Jogo</langLabelPlayTime>
             <langLabelSysName>Nome do Sistema</langLabelSysName>
             <langLabelCompleted>Concluído</langLabelCompleted>
             <langLabelChild>Seguro para Crianças</langLabelChild>
@@ -538,6 +551,7 @@
             <langLabelFavorites>Favorite</langLabelFavorites>
             <langLabelLastPlay>Ultima jucat</langLabelLastPlay>
             <langLabelTimePlay>Timp jucat</langLabelTimePlay>
+			<langLabelPlayTime>Timp Jucat</langLabelPlayTime>
             <langLabelSysName>Nume sistem</langLabelSysName>
             <langLabelCompleted>Terminat</langLabelCompleted>
             <langLabelChild>În siguranță pentru copii</langLabelChild>
@@ -578,6 +592,7 @@
             <langLabelFavorites>Избранное</langLabelFavorites>
             <langLabelLastPlay>Последняя игра</langLabelLastPlay>
             <langLabelTimePlay>Раз сыграно</langLabelTimePlay>
+			<langLabelPlayTime>Время в игре</langLabelPlayTime>
             <langLabelSysName>Имя системы</langLabelSysName>
             <langLabelCompleted>Завершенный</langLabelCompleted>
             <langLabelChild>Безопасно для детей</langLabelChild>
@@ -618,6 +633,7 @@
             <langLabelFavorites>Омиљене</langLabelFavorites>
             <langLabelLastPlay>Последње играно</langLabelLastPlay>
             <langLabelTimePlay>Број играња</langLabelTimePlay>
+			<langLabelPlayTime>Vreme Igre</langLabelPlayTime>
             <langLabelSysName>Систем Име</langLabelSysName>
             <langLabelCompleted>Завршено</langLabelCompleted>
             <langLabelChild>Безбедно за децу</langLabelChild>
@@ -658,6 +674,7 @@
             <langLabelFavorites>Favoriter</langLabelFavorites>
             <langLabelLastPlay>Senast spelat</langLabelLastPlay>
             <langLabelTimePlay>Spelade gånger</langLabelTimePlay>
+			<langLabelPlayTime>Speltid</langLabelPlayTime>
             <langLabelSysName>Systemnamn</langLabelSysName>
             <langLabelCompleted>Avslutad</langLabelCompleted>
             <langLabelChild>Barnsäkert</langLabelChild>
@@ -698,6 +715,7 @@
             <langLabelFavorites>お気に入り</langLabelFavorites>
             <langLabelLastPlay>最後にプレイした時間</langLabelLastPlay>
             <langLabelTimePlay>プレイ時間</langLabelTimePlay>
+			<langLabelPlayTime>プレイ時間</langLabelPlayTime>
             <langLabelSysName>システム名</langLabelSysName>
             <langLabelCompleted>完了しました</langLabelCompleted>
             <langLabelChild>子供にも安全</langLabelChild>
@@ -738,6 +756,7 @@
             <langLabelFavorites>즐겨찾기</langLabelFavorites>
             <langLabelLastPlay>마지막으로 재생</langLabelLastPlay>
             <langLabelTimePlay>플레이 시간</langLabelTimePlay>
+			<langLabelPlayTime>놀이 시간</langLabelPlayTime>
             <langLabelSysName>시스템 이름</langLabelSysName>
             <langLabelCompleted>완벽한</langLabelCompleted>
             <langLabelChild>어린이 안전</langLabelChild>
@@ -778,6 +797,7 @@
             <langLabelFavorites>收藏夹</langLabelFavorites>
             <langLabelLastPlay>最后玩过</langLabelLastPlay>
             <langLabelTimePlay>玩过的次数</langLabelTimePlay>
+			<langLabelPlayTime>游玩时间</langLabelPlayTime>
             <langLabelSysName>系统名称</langLabelSysName>
             <langLabelCompleted>完全的</langLabelCompleted>
             <langLabelChild>儿童安全</langLabelChild>
@@ -818,6 +838,7 @@
             <langLabelFavorites>收藏夾</langLabelFavorites>
             <langLabelLastPlay>上次播放</langLabelLastPlay>
             <langLabelTimePlay>播放次數</langLabelTimePlay>
+			<langLabelPlayTime>遊玩時間</langLabelPlayTime>
             <langLabelSysName>系統名稱</langLabelSysName>
             <langLabelCompleted>已完成</langLabelCompleted>
             <langLabelChild>兒童安全</langLabelChild>
