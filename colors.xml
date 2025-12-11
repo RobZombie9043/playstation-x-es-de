@@ -1,5 +1,5 @@
 <theme>
-	<colorScheme name="ps4, ps4-custom, ps5, ps5-custom">
+	<colorScheme name="ps4, ps4-novid, ps4-custom, ps5, ps5-novid, ps5-custom">
 		<variables>	
 			<userName>PlayStation-X</userName>
 			<avatarPath>./_inc/images/avatar.webp</avatarPath>
@@ -16,7 +16,7 @@
 			<gameVideoAudio>true</gameVideoAudio>
 		</variables>	
 	</colorScheme>
-	<colorScheme name="ps4, ps4-custom">
+	<colorScheme name="ps4, ps4-novid, ps4-custom">
         <variables>
 			<startVisible>true</startVisible>
 			<selectorYSizeSmall>0.304</selectorYSizeSmall>
@@ -29,7 +29,7 @@
 			<iconRadius>0</iconRadius>
 		</variables>
     </colorScheme>
-	<colorScheme name="ps5, ps5-custom">
+	<colorScheme name="ps5, ps5-novid, ps5-custom">
         <variables>
 			<startVisible>false</startVisible>
 			<selectorYSizeSmall>0.255</selectorYSizeSmall>
@@ -40,6 +40,13 @@
 			<systemNamePosYMedium>0.395</systemNamePosYMedium>
 			<systemNamePosYLarge>0.420</systemNamePosYLarge>
 			<iconRadius>${carouselRadius}</iconRadius>
+		</variables>
+    </colorScheme>
+	
+	<colorScheme name="ps4-novid, ps5-novid">
+        <variables>
+			<systemVideoVisible>false</systemVideoVisible>
+			<secondaryDescriptionPos>true</secondaryDescriptionPos>
 		</variables>
     </colorScheme>
 	
