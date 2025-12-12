@@ -962,9 +962,9 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<primaryColor>ffffff</primaryColor>
 				<secondaryColor>ffffff</secondaryColor>
 				<fontPath>${fontSSTRoman}</fontPath>
-				<fontSize>0.035</fontSize>
+				<fontSize>${fontSizeBody}</fontSize>
 				<horizontalAlignment>left</horizontalAlignment>
-				<lineSpacing>1.45</lineSpacing>
+				<lineSpacing>${listLineSpacing}</lineSpacing>
 				<zIndex>52</zIndex>
 			</textlist>
 			
@@ -1096,6 +1096,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<fontSizeH2>0.050</fontSizeH2>
 			<fontSizeBody>0.030</fontSizeBody> 
 			<fontSizeCaption>0.025</fontSizeCaption>
+			<listLineSpacing>1.711111</listLineSpacing>
 		</variables>
 	</fontSize>
 	<fontSize name="medium">
@@ -1104,6 +1105,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<fontSizeH2>0.0475</fontSizeH2>
 			<fontSizeBody>0.0275</fontSizeBody> 
 			<fontSizeCaption>0.0225</fontSizeCaption>
+			<listLineSpacing>1.647059</listLineSpacing>
 		</variables>
 	</fontSize>
 	<fontSize name="small">
@@ -1112,6 +1114,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<fontSizeH2>0.045</fontSizeH2>
 			<fontSizeBody>0.025</fontSizeBody> 
 			<fontSizeCaption>0.02</fontSizeCaption>
+			<listLineSpacing>1.621053</listLineSpacing>
 		</variables>
 	</fontSize>
 	

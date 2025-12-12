@@ -20,12 +20,15 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
   
 - `Theme Variant` - sets the theme variant adjusting the gamelist view. 
-   - `Carousel: Metadata` - Gamelist view with a carousel displaying description metadata
-   - `Carousel: Metadata (Video Background)` - Gamelist view with a carousel displaying description metadata, background plays game video
-   - `Carousel: Metadata & Miximage` - Gamelist view with a carousel displaying miximage and description metadata
-   - `Carousel: Metadata & Miximage with video` - Gamelist view with a carousel displaying miximage with delayed video and description metadata
+   - `2D Carousel: Metadata` - Gamelist view with a carousel using 2D box art and displaying description metadata
+   - `2D Carousel: Metadata (Video Background)` - Gamelist view with a carousel using 2D box art and displaying description metadata, background plays game video
+   - `2D Carousel: Metadata & Miximage` - Gamelist view with a carousel using 2D box art and displaying miximage and description metadata
+   - `2D Carousel: Metadata & Miximage with video` - Gamelist view with a carousel using 2D box art and displaying miximage with delayed video and description metadata
+   - `3D Carousel: Metadata` - Gamelist view with a carousel using 2D box art and displaying description metadata
+   - `3D Carousel: Metadata (Video Background)` - Gamelist view with a carousel using 2D box art and displaying description metadata, background plays game video
+   - `3D Carousel: Metadata & Miximage` - Gamelist view with a carousel using 2D box art and displaying miximage and description metadata
+   - `3D Carousel: Metadata & Miximage with video` - Gamelist view with a carousel using 2D box art and displaying miximage with delayed video and description metadata
    - `Grid` - Gamelist view with a grid view with metadata
-   - `Textlist` - Gamelist view with a textlist view with metadata
 
  - `Theme Color Scheme` - sets the system view style based on PS4 or PS5. The custom variants allow for avatar and username customization - see customiztion section.
    - `PS4`
@@ -86,7 +89,6 @@ Gamelist View cutsomizations:
    - `<gameBackgroundSolidColor>` - Set to use a solid color background in gamelist view
    - `<gameBackgroundColor>` - sets the color background to be used for above setting
    - `<gameVideoAudio>` - Set to false to disable the audio of the gamelist view videos
-   - `<carouselImageType>` - Type of image to display in gamelist carousel e.g. cover, 3dbox
 
 4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `PS4 - Custom` or `PS5 - Custom` and you should see your customizations.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
 
