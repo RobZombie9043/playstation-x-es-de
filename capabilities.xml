@@ -102,6 +102,11 @@
 		<selectable>true</selectable>
 	</variant>
 	
+	<variant name="list">
+		<label>Textlist</label>
+		<selectable>true</selectable>
+	</variant>
+	
 	<!--
 	///
 	Color Schemes

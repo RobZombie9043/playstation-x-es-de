@@ -21,6 +21,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		<fontSSTBold>./_inc/fonts/SST Bold.ttf</fontSSTBold>
 		<fontSSTLight>./_inc/fonts/SST Light.ttf</fontSSTLight>
 		<fontSSTRoman>./_inc/fonts/SST Roman.ttf</fontSSTRoman>
+		<fontSSTCondensed>./_inc/fonts/SST Condensed.ttf</fontSSTCondensed>	
 		<fontSSTUltraLight>./_inc/fonts/SST Ultra Light.ttf</fontSSTUltraLight>
 	</variables>
 	
@@ -933,6 +934,120 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			
 		</view>
 	</variant>
+	
+	<!--
+	///
+	Gamelist View - Textlist
+	///
+	-->
+	<variant name="list">
+		<view name="gamelist">
+			<image name="system-overlay">
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<cropSize>1 1</cropSize>
+				<path>./_inc/images/overlay-full-grid.png</path>
+				<color>3CAEFB</color>
+				<zIndex>48</zIndex>
+			</image>
+			
+			<textlist name="game-list">
+				<origin>0 0</origin>
+				<pos>0 0.14</pos>
+				<size>0.52 0.77</size>
+				<selectorColor>F3C300</selectorColor>
+				<selectedColor>3CAEFB</selectedColor>
+				<selectorImagePath>./_inc/images/selector-white-lines-transp50.png</selectorImagePath>
+				<horizontalMargin>0.015</horizontalMargin>
+				<primaryColor>ffffff</primaryColor>
+				<secondaryColor>ffffff</secondaryColor>
+				<fontPath>${fontSSTRoman}</fontPath>
+				<fontSize>0.035</fontSize>
+				<horizontalAlignment>left</horizontalAlignment>
+				<lineSpacing>1.45</lineSpacing>
+				<zIndex>52</zIndex>
+			</textlist>
+			
+			<!-- <image name="game-miximage">
+				<origin>0.5 0.5</origin>
+				<pos>0.76 0.38</pos>
+				<maxSize>0.45 0.48</maxSize>
+				<imageType>miximage</imageType>
+				<zIndex>99</zIndex>
+				<visible>false</visible>
+			</image> -->
+			
+			<video name="game-miximage-video">
+				<origin>0.5 0.5</origin>
+				<pos>0.76 0.38</pos>
+				<maxSize>0.45 0.48</maxSize>
+				<imageType>miximage</imageType>
+				<pillarboxes>false</pillarboxes>
+				<audio>${gameVideoAudio}</audio>
+				<zIndex>99</zIndex>
+			</video>
+			
+			<!-- <image name="console">
+				<origin>1 1</origin>
+				<pos>0.985 0.62</pos>
+				<maxSize>0.2 0.2</maxSize>
+				<path>./_inc/systems/consoles/${system.theme}.webp</path>
+				<mipmap>false</mipmap>
+				<metadataElement>true</metadataElement>
+				<zIndex>100</zIndex>
+				<visible>false</visible>
+			</image> -->
+			
+			<datetime name="game-year">
+				<pos>0.55 0.63</pos>
+				<fontSize>${fontSizeBody}</fontSize>
+			</datetime>
+			
+			<text name="game-developer">
+				<pos>0.61 0.63</pos>
+				<size>0.220 0.03</size>
+				<fontSize>${fontSizeBody}</fontSize>
+			</text>
+			
+			<text name="game-genre">
+				<pos>0.55 0.67</pos>
+				<size>0.280 0.03</size>
+				<fontSize>${fontSizeBody}</fontSize>
+			</text>
+			
+			<rating name="game-rating">
+				<origin>1 0.5</origin>
+				<pos>0.985 0.665</pos>
+				<size>0 ${fontSizeH2}</size>
+			</rating>
+			
+			<image name="info-line">
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<pos>0.55 0.715</pos>
+				<size>0.435 0.0011</size>
+				<color>555555</color>
+				<zIndex>52</zIndex>
+			</image>
+			
+			<text name="game-description">
+				<pos>0.55 0.73</pos>
+				<size>0.435 0.14</size>
+				<fontSize>${fontSizeBody}</fontSize>
+			</text>
+				
+			<badges name="carousel-badges">
+				<pos>0.55 0.88</pos>
+				<size>0.435 ${fontSizeBody}</size>
+			</badges>
+			
+			<text name="game-name, game-developer-dot, game-genre-dot">
+				<visible>false</visible>
+			</text>
+			
+		</view>
+	</variant>
+	
 	
 	<!--
 	///

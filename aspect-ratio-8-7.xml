@@ -381,5 +381,53 @@
 			
 		</view>
 	</variant>
+	
+	<!--
+	///
+	Gamelist View - Textlist
+	///
+	-->
+	<variant name="list">
+		<view name="gamelist">
+			<video name="game-miximage-video">
+				<pos>0.76 0.33</pos>
+				<maxSize>0.45 0.38</maxSize>
+			</video>
+			
+			<datetime name="game-year">
+				<pos>0.55 0.54</pos>
+			</datetime>
+			
+			<text name="game-developer">
+				<pos>0.63 0.54</pos>
+				<size>0.355 0.03</size>
+			</text>
+			
+			<text name="game-genre">
+				<pos>0.55 0.58</pos>
+				<size>0.435 0.03</size>
+			</text>
+			
+			<rating name="game-rating">
+				<origin>0 0</origin>
+				<pos>0.55 0.62</pos>
+				<size>0 ${fontSizeBody}</size>
+			</rating>
+			
+			<image name="info-line">
+				<pos>0.55 0.6625</pos>
+			</image>
+			
+			<text name="game-description">
+				<pos>0.55 0.67</pos>
+				<size>0.435 0.20</size>
+			</text>
+				
+			<badges name="carousel-badges">
+				<pos>0.55 0.88</pos>
+			</badges>
+			
+		</view>
+	</variant>
 
 </theme>

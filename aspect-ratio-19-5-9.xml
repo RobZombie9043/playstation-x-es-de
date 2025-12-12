@@ -294,5 +294,51 @@
 			<gameGenreGridSize>0.165</gameGenreGridSize>
 		</variables>
 	</fontSize>
-
+	
+	<!--
+	///
+	Gamelist View - Textlist
+	///
+	-->
+	<variant name="list">
+		<view name="gamelist">
+			<video name="game-miximage-video">
+				<pos>0.76 0.38</pos>
+				<maxSize>0.45 0.48</maxSize>
+			</video>
+			
+			<datetime name="game-year">
+				<pos>0.55 0.63</pos>
+			</datetime>
+			
+			<text name="game-developer">
+				<pos>0.60 0.63</pos>
+				<size>0.19 0.03</size>
+			</text>
+			
+			<text name="game-genre">
+				<pos>0.55 0.67</pos>
+				<size>0.28 0.03</size>
+			</text>
+			
+			<rating name="game-rating">
+				<origin>1 0.5</origin>
+				<pos>0.985 0.665</pos>
+			</rating>
+			
+			<image name="info-line">
+				<pos>0.55 0.715</pos>
+			</image>
+			
+			<text name="game-description">
+				<pos>0.55 0.73</pos>
+				<size>0.435 0.14</size>
+			</text>
+				
+			<badges name="carousel-badges">
+				<pos>0.55 0.88</pos>
+			</badges>
+	
+		</view>
+	</variant>
 </theme>
