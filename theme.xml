@@ -1027,6 +1027,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<pos>0.55 0.715</pos>
 				<size>0.435 0.0011</size>
 				<color>555555</color>
+				<metadataElement>true</metadataElement>
 				<zIndex>52</zIndex>
 			</image>
 			
