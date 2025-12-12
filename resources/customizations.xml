@@ -18,6 +18,7 @@
 		<gameBackgroundSolidColor>false</gameBackgroundSolidColor>		<!-- use a solid color background in gamelist view -->
 		<gameBackgroundColor>000000</gameBackgroundColor>				<!-- color background to be used -->
 		<gameVideoAudio>true</gameVideoAudio>							<!-- play game video audio -->
+		<carouselImageType>cover</carouselImageType>					<!-- type of image to display in gamelist carousel e.g. cover, 3dbox-->
 		
 	</variables>
 </theme>

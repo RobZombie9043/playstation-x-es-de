@@ -658,7 +658,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video">
 		<view name="gamelist">
 			<carousel name="game-carousel">
-				<imageType>cover</imageType>
+				<imageType>${carouselImageType}</imageType>
 			</carousel>
 		</view>
 	</variant>
@@ -666,7 +666,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
 		<view name="gamelist">
 			<carousel name="game-carousel">
-				<imageType>3dbox, cover</imageType>
+				<imageType>${carouselImageType}</imageType>
 			</carousel>
 		</view>
 	</variant>
