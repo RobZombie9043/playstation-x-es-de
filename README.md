@@ -87,10 +87,10 @@ Gamelist View cutsomizations:
    - `<gameBackgroundColor>` - sets the color background to be used for above setting
    - `<gameVideoAudio>` - Set to false to disable the audio of the gamelist view videos
    - `<gameVideoDelay>` - Set delay in seconds before video plays
-   - `<carouselImageType>` - Type of image to display in gamelist carousel e.g. cover, 3dbox
-   - `<metadataImageType>` - Type of image to display in gamelist metadata e.g. miximage, screenshot, titlescreen, cover
-   - `<gameVideoVisible>` - Set to show game video, if true set <gameImageVisible> to false
-   - `<gameImageVisible>` - Set to show game media image, if true set <gameVideoVisible> to false   
+   - `<carouselImageType>` - Type of image to display in gamelist carousel e.g. `cover`, `3dbox`
+   - `<metadataImageType>` - Type of image to display in gamelist metadata e.g. `miximage`, `screenshot`, `titlescreen`, `cover`
+   - `<gameVideoVisible>` - Set to show game video, if true set `<gameImageVisible>` to `false`
+   - `<gameImageVisible>` - Set to show game media image, if true set `<gameVideoVisible>` to `false`   
 
 4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `PS4 - Custom` or `PS5 - Custom` and you should see your customizations.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
 
