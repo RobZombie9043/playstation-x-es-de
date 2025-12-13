@@ -119,7 +119,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
+	<variant name="carousel-description, carousel-description-video, carousel-media">
 		<view name="gamelist">			
 			<image name="game-miximage">
 				<pos>0.2 0.3</pos>
@@ -132,7 +132,7 @@
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-description, carousel-2d-description-video, carousel-3d-description, carousel-3d-description-video">
+	<variant name="carousel-description, carousel-description-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.025 0.14</pos>
@@ -203,51 +203,8 @@
 			<gameGenreDescSize>0.38375</gameGenreDescSize>
 		</variables>
 	</fontSize>
-	
-	<variant name="carousel-2d-mix, carousel-3d-mix">
-		<view name="gamelist">
-			<text name="game-name">
-				<pos>0.4 0.16</pos>
-				<size>0.584 0.06</size>
-				<container>true</container>
-				<containerType>horizontal</containerType>
-			</text>
-			
-			<datetime name="game-year">
-				<pos>0.4 0.255</pos>
-			</datetime>
-			
-			<text name="game-developer-dot">
-				<pos>${gameDeveloperDot} 0.255</pos>
-			</text>
-			
-			<text name="game-developer">
-				<pos>${gameDeveloper} 0.255</pos>
-				<size>${gameDeveloperSize} 0.03</size>
-			</text>
-			
-			<rating name="game-rating">
-				<pos>0.4 0.285</pos>
-			</rating>
-			
-			<text name="game-genre-dot">
-				<pos>${gameGenreDot} 0.285</pos>
-			</text>
-			
-			<text name="game-genre">
-				<pos>${gameGenre} 0.285</pos>
-				<size>${gameGenreSize} 0.03</size>
-			</text>
-			
-			<badges name="carousel-badges">
-				<pos>0.4 0.335</pos>
-			</badges>
-		</view>
-	</variant>
-	
-	
-	
-	<variant name="carousel-2d-both, carousel-2d-both-video, carousel-3d-both, carousel-3d-both-video">
+		
+	<variant name="carousel-media">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.4 0.145</pos>

@@ -14,7 +14,11 @@
 			<gameBackgroundSolidColor>false</gameBackgroundSolidColor>
 			<gameBackgroundColor>000000</gameBackgroundColor>
 			<gameVideoAudio>true</gameVideoAudio>
+			<gameVideoDelay>2</gameVideoDelay>
 			<carouselImageType>cover</carouselImageType>
+			<metadataImageType>miximage</metadataImageType>
+			<gameVideoVisible>true</gameVideoVisible>
+			<gameImageVisible>false</gameImageVisible>
 		</variables>	
 	</colorScheme>
 	<colorScheme name="ps4, ps4-novid, ps4-custom">

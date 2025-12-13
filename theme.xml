@@ -599,7 +599,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	-->
 	<include>./_inc/systems/coversize-carousel/${systemCoverSize}.xml</include>
 	
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
+	<variant name="carousel-description, carousel-description-video, carousel-media">
 		<view name="gamelist">
 			<image name="system-overlay">
 				<origin>0.5 0.5</origin>
@@ -638,7 +638,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<origin>0.5 0.5</origin>
 				<pos>0.15 0.3</pos>
 				<maxSize>0.2 0.3</maxSize>
-				<imageType>miximage</imageType>
+				<imageType>${metadataImageType}</imageType>
 				<zIndex>99</zIndex>
 			</image>
 			<image name="console">
@@ -649,13 +649,14 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<mipmap>false</mipmap>
 				<metadataElement>true</metadataElement>
 				<zIndex>100</zIndex>
+				<visible>false</visible>
 			</image>
 			
 			
 		</view>		
 	</variant>
 	
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video">
+	<variant name="carousel-description, carousel-description-video, carousel-media">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>${carouselImageType}</imageType>
@@ -663,15 +664,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
-		<view name="gamelist">
-			<carousel name="game-carousel">
-				<imageType>${carouselImageType}</imageType>
-			</carousel>
-		</view>
-	</variant>
-	
-	<variant name="carousel-2d-description, carousel-2d-description-video, carousel-3d-description, carousel-3d-description-video">
+	<variant name="carousel-description, carousel-description-video">
 		<view name="gamelist">
 			<image name="game-miximage">
 				<visible>false</visible>
@@ -718,47 +711,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-mix, carousel-3d-mix">
-		<view name="gamelist">
-			<text name="game-name">
-				<pos>0.3 0.16</pos>
-			</text>
-			
-			<datetime name="game-year">
-				<pos>0.3 0.255</pos>
-			</datetime>
-			
-			<text name="game-developer-dot">
-				<pos>0.34125 0.255</pos>
-			</text>
-			
-			<text name="game-developer">
-				<pos>0.355 0.255</pos>
-			</text>
-			
-			<rating name="game-rating">
-				<pos>0.3 0.285</pos>
-			</rating>
-			
-			<text name="game-genre-dot">
-				<pos>0.38 0.285</pos>
-			</text>
-			
-			<text name="game-genre">
-				<pos>0.395 0.285</pos>
-			</text>
-			
-			<text name="game-description">
-				<visible>false</visible>
-			</text>
-			
-			<badges name="carousel-badges">
-				<pos>0.3 0.335</pos>
-			</badges>
-		</view>
-	</variant>
-	
-	<variant name="carousel-2d-both, carousel-2d-both-video, carousel-3d-both, carousel-3d-both-video">
+	<variant name="carousel-media">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.3 0.145</pos>
@@ -798,7 +751,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-both-video, carousel-3d-both-video">
+	<variant name="carousel-media">
 		<view name="gamelist">
 			<image name="game-miximage">
 				<visible>false</visible>
@@ -807,9 +760,11 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<origin>0.5 0.5</origin>
 				<pos>0.15 0.3</pos>
 				<maxSize>0.2 0.3</maxSize>
-				<imageType>miximage</imageType>
+				<imageType>${metadataImageType}</imageType>
 				<pillarboxes>false</pillarboxes>
 				<audio>${gameVideoAudio}</audio>
+				<delay>${gameVideoDelay}</delay>
+				<visible>${gameVideoVisible}</visible>
 				<zIndex>99</zIndex>
 			</video>
 			<image name="console">
@@ -818,7 +773,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-2d-description-video, carousel-3d-description-video">
+	<variant name="carousel-description-video">
 		<view name="gamelist">
 			<image name="game-background-art">
 				<visible>false</visible>
@@ -867,11 +822,22 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<origin>0 1</origin>
 				<pos>0.016 0.51</pos>
 				<maxSize>0.253 0.33</maxSize>
-				<imageType>screenshot</imageType>
+				<imageType>${metadataImageType}</imageType>
 				<pillarboxes>false</pillarboxes>
+				<delay>${gameVideoDelay}</delay>
 				<audio>${gameVideoAudio}</audio>
+				<visible>${gameVideoVisible}</visible>
 				<zIndex>99</zIndex>
 			</video>
+			
+			<image name="game-screenshot-image">
+				<origin>0 1</origin>
+				<pos>0.016 0.51</pos>
+				<maxSize>0.253 0.33</maxSize>
+				<imageType>${metadataImageType}</imageType>
+				<visible>${gameImageVisible}</visible>
+				<zIndex>99</zIndex>
+			</image>
 			
 			<image name="system-overlay">
 				<origin>0.5 0.5</origin>
@@ -968,22 +934,24 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<zIndex>52</zIndex>
 			</textlist>
 			
-			<!-- <image name="game-miximage">
+			<image name="game-miximage">
 				<origin>0.5 0.5</origin>
 				<pos>0.76 0.38</pos>
 				<maxSize>0.45 0.48</maxSize>
-				<imageType>miximage</imageType>
+				<imageType>${metadataImageType}</imageType>
 				<zIndex>99</zIndex>
-				<visible>false</visible>
-			</image> -->
+				<visible>${gameImageVisible}</visible>
+			</image>
 			
 			<video name="game-miximage-video">
 				<origin>0.5 0.5</origin>
 				<pos>0.76 0.38</pos>
 				<maxSize>0.45 0.48</maxSize>
-				<imageType>miximage</imageType>
+				<imageType>${metadataImageType}</imageType>
 				<pillarboxes>false</pillarboxes>
 				<audio>${gameVideoAudio}</audio>
+				<delay>${gameVideoDelay}</delay>
+				<visible>${gameVideoVisible}</visible>
 				<zIndex>99</zIndex>
 			</video>
 			

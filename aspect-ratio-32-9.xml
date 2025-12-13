@@ -83,7 +83,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-2d-mix, carousel-2d-description, carousel-2d-description-video, carousel-2d-both, carousel-2d-both-video, carousel-3d-mix, carousel-3d-description, carousel-3d-description-video, carousel-3d-both, carousel-3d-both-video">
+	<variant name="carousel-description, carousel-description-video, carousel-media">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<size>1 0.85</size>
@@ -98,7 +98,7 @@
 		</view>		
 	</variant>
 	
-	<variant name="carousel-2d-description, carousel-2d-description-video, carousel-3d-description, carousel-3d-description-video">
+	<variant name="carousel-description, carousel-description-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<size>0.95 0.06</size>
@@ -154,43 +154,7 @@
 		</variables>
 	</fontSize>
 	
-	<variant name="carousel-2d-mix, carousel-3d-mix">
-		<view name="gamelist">
-			<text name="game-name">
-				<pos>0.2 0.16</pos>
-				<size>0.584 0.06</size>
-				<container>true</container>
-				<containerType>horizontal</containerType>
-			</text>
-			<datetime name="game-year">
-				<pos>0.2 0.255</pos>
-			</datetime>
-			<rating name="game-rating">
-				<pos>0.2 0.285</pos>
-			</rating>
-			<badges name="carousel-badges">
-				<pos>0.2 0.335</pos>
-			</badges>
-			
-			<text name="game-developer-dot">
-				<pos>${gameDeveloperDot} 0.255</pos>
-			</text>
-			<text name="game-developer">
-				<pos>${gameDeveloper} 0.255</pos>
-				<size>${gameDeveloperSize} 0.03</size>
-			</text>
-			
-			<text name="game-genre-dot">
-				<pos>${gameGenreDot} 0.285</pos>
-			</text>
-			<text name="game-genre">
-				<pos>${gameGenre} 0.285</pos>
-				<size>${gameGenreSize} 0.03</size>
-			</text>
-		</view>
-	</variant>
-	
-	<variant name="carousel-2d-both, carousel-2d-both-video, carousel-3d-both, carousel-3d-both-video">
+	<variant name="carousel-media">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.2 0.145</pos>
@@ -340,7 +304,7 @@
 				<origin>0.5 0.5</origin>
 				<pos>0.65875 0.38</pos>
 				<maxSize>0.21 0.48</maxSize>
-				<imageType>miximage</imageType>
+				<imageType>${metadataImageType}</imageType>
 				<zIndex>99</zIndex>
 			</image>
 			

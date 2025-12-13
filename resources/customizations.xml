@@ -18,7 +18,11 @@
 		<gameBackgroundSolidColor>false</gameBackgroundSolidColor>		<!-- use a solid color background in gamelist view -->
 		<gameBackgroundColor>000000</gameBackgroundColor>				<!-- color background to be used -->
 		<gameVideoAudio>true</gameVideoAudio>							<!-- play game video audio -->
+		<gameVideoDelay>2</gameVideoDelay>								<!-- delay in seconds before video plays -->
 		<carouselImageType>cover</carouselImageType>					<!-- type of image to display in gamelist carousel e.g. cover, 3dbox-->
+		<metadataImageType>miximage</metadataImageType>					<!-- type of image to display in gamelist metadata e.g. miximage, screenshot, titlescreen, cover-->
 		
+		<gameVideoVisible>true</gameVideoVisible>						<!-- show game video, if true set <gameImageVisible> to false -->
+		<gameImageVisible>false</gameImageVisible>						<!-- show game media image, if true set <gameVideoVisible> to false -->
 	</variables>
 </theme>
