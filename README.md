@@ -26,10 +26,12 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
    - `Grid` - Gamelist view with a grid view and displaying media and metadata
    - `Textlist` - Gamelist view with a textlist view and displaying media and metadata
 
- - `Theme Color Scheme` - sets the system view style based on PS4 or PS5. The custom variants allow for avatar and username customization - see customiztion section.
+ - `Theme Color Scheme` - sets the system view style based on PS4 or PS5. The `no system videos` variants hide the system advert video and the `custom` variants allow for theme customizations - see customiztion section.
    - `PS4`
-   - `PS5`
+   - `PS4 - No system videos`
    - `PS4 - Custom`
+   - `PS5`
+   - `PS5 - No system videos`
    - `PS5 - Custom`
 
      
