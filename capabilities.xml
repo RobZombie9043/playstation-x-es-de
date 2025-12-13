@@ -87,20 +87,20 @@
         <label>PS4</label>
     </colorScheme>
 	<colorScheme name="ps4-novid">
-        <label>PS4 - No system videos</label>
+        <label>PS4 (No system videos)</label>
     </colorScheme>
 	<colorScheme name="ps4-custom">
-        <label>PS4 - Custom</label>
+        <label>PS4 (Custom)</label>
     </colorScheme>
 	
 	<colorScheme name="ps5">
         <label>PS5</label>
     </colorScheme>
 	<colorScheme name="ps5-novid">
-        <label>PS5 - No system videos</label>
+        <label>PS5 (No system videos)</label>
     </colorScheme>
 	<colorScheme name="ps5-custom">
-        <label>PS5 - Custom</label>
+        <label>PS5 (Custom)</label>
     </colorScheme>
 	
 	<!--
