@@ -87,7 +87,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-description, carousel-description-video">
+	<variant name="carousel, carousel-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<pos>0.025 0.14</pos>

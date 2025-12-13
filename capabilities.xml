@@ -55,11 +55,11 @@
 	Variants
 	///
 	-->
-	<variant name="carousel-description">
+	<variant name="carousel">
 		<label>Carousel (Basic)</label>
 		<selectable>true</selectable>
 	</variant>
-	<variant name="carousel-description-video">
+	<variant name="carousel-video">
 		<label>Carousel (Immersive)</label>
 		<selectable>true</selectable>
 	</variant>	

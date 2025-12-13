@@ -83,7 +83,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-description, carousel-description-video, carousel-media">
+	<variant name="carousel, carousel-video, carousel-media">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<size>1 0.825</size>
@@ -95,7 +95,7 @@
 		</view>		
 	</variant>
 	
-	<variant name="carousel-description, carousel-description-video">
+	<variant name="carousel, carousel-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<size>0.95 0.06</size>

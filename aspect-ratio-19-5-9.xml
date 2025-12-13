@@ -58,7 +58,7 @@
 	Gamelist View - Common
 	///
 	-->
-	<variant name="carousel-description, carousel-description-video, carousel-media">
+	<variant name="carousel, carousel-video, carousel-media">
 		<view name="gamelist">
 			<image name="console">
 				<pos>0.27 0.45</pos>
@@ -90,7 +90,7 @@
 	Gamelist View - Carousels
 	///
 	-->
-	<variant name="carousel-description, carousel-description-video">
+	<variant name="carousel, carousel-video">
 		<view name="gamelist">
 			<text name="game-name">
 				<size>0.95 0.06</size>

@@ -599,7 +599,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 	-->
 	<include>./_inc/systems/coversize-carousel/${systemCoverSize}.xml</include>
 	
-	<variant name="carousel-description, carousel-description-video, carousel-media">
+	<variant name="carousel, carousel-video, carousel-media">
 		<view name="gamelist">
 			<image name="system-overlay">
 				<origin>0.5 0.5</origin>
@@ -656,7 +656,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>		
 	</variant>
 	
-	<variant name="carousel-description, carousel-description-video, carousel-media">
+	<variant name="carousel, carousel-video, carousel-media">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>${carouselImageType}</imageType>
@@ -664,7 +664,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-description, carousel-description-video">
+	<variant name="carousel, carousel-video">
 		<view name="gamelist">
 			<image name="game-miximage">
 				<visible>false</visible>
@@ -773,7 +773,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 		</view>
 	</variant>
 	
-	<variant name="carousel-description-video">
+	<variant name="carousel-video">
 		<view name="gamelist">
 			<image name="game-background-art">
 				<visible>false</visible>
@@ -1016,7 +1016,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			
 		</view>
 	</variant>
-	
 	
 	<!--
 	///
