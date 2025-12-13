@@ -20,12 +20,11 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
 - This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
   
 - `Theme Variant` - sets the theme variant adjusting the gamelist view. 
-   - `Carousel: Metadata` - Gamelist view with a carousel displaying description metadata
-   - `Carousel: Metadata (Video Background)` - Gamelist view with a carousel displaying description metadata, background plays game video
-   - `Carousel: Metadata & Miximage` - Gamelist view with a carousel displaying miximage and description metadata
-   - `Carousel: Metadata & Miximage with video` - Gamelist view with a carousel displaying miximage with delayed video and description metadata
-   - `Grid` - Gamelist view with a grid view with metadata
-   - `Textlist` - Gamelist view with a textlist view with metadata
+   - `Carousel (Basic)` - Gamelist view with a carousel and displaying simple metadata
+   - `Carousel (Immersive)` - Gamelist view with a carousel and displaying simple metadata, background plays game video
+   - `Carousel (Detailed)` - Gamelist view with a carousel and displaying media and metadata
+   - `Grid` - Gamelist view with a grid view and displaying media and metadata
+   - `Textlist` - Gamelist view with a textlist view and displaying media and metadata
 
  - `Theme Color Scheme` - sets the system view style based on PS4 or PS5. The custom variants allow for avatar and username customization - see customiztion section.
    - `PS4`
