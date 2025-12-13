@@ -28,11 +28,11 @@ A port of the [PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStatio
 
  - `Theme Color Scheme` - sets the system view style based on PS4 or PS5. The `no system videos` variants hide the system advert video and the `custom` variants allow for theme customizations - see [Customization Options](#customization-options) section.
    - `PS4`
-   - `PS4 - No system videos`
-   - `PS4 - Custom`
+   - `PS4 (No system videos)`
+   - `PS4 (Custom)`
    - `PS5`
-   - `PS5 - No system videos`
-   - `PS5 - Custom`
+   - `PS5 (No system videos)`
+   - `PS5 (Custom)`
 
      
 - `Font Size` - enables you to change the size of the fonts displayed in the theme. This also adjusts the size of the system view carousel and gamelist view carousel or grid.
