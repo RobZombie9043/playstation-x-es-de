@@ -66,17 +66,11 @@
 				<container>true</container>
 				<containerType>horizontal</containerType>
 			</text>
-			<text name="game-developer-dot">
-				<pos>${gameDeveloperDotDesc} 0.225</pos>
-			</text>
 			<text name="game-developer">
 				<pos>${gameDeveloperDesc} 0.225</pos>
 				<size>${gameDeveloperDescSize} 0.03</size>
 			</text>
 
-			<text name="game-genre-dot">
-				<pos>${gameGenreDotDesc} 0.255</pos>
-			</text>
 			<text name="game-genre">
 				<pos>${gameGenreDesc} 0.255</pos>
 				<size>${gameGenreDescSize} 0.03</size>
@@ -84,36 +78,31 @@
 		</view>
 	</variant>
 	
-	<fontSize name="small">
-		<variables>
-			<gameDeveloperDotDesc>0.063</gameDeveloperDotDesc>
-			<gameDeveloperDesc>0.080</gameDeveloperDesc>
-			<gameDeveloperDescSize>0.495</gameDeveloperDescSize>
-			<gameGenreDotDesc>0.107</gameGenreDotDesc>
-			<gameGenreDesc>0.125</gameGenreDesc>
-			<gameGenreDescSize>0.45</gameGenreDescSize>	
-		</variables>
-	</fontSize>
-	<fontSize name="medium">
-		<variables>
-			<gameDeveloperDotDesc>0.068</gameDeveloperDotDesc>
-			<gameDeveloperDesc>0.085</gameDeveloperDesc>
-			<gameDeveloperDescSize>0.49</gameDeveloperDescSize>
-			<gameGenreDotDesc>0.1145</gameGenreDotDesc>
-			<gameGenreDesc>0.1325</gameGenreDesc>
-			<gameGenreDescSize>0.4425</gameGenreDescSize>
-		</variables>
-	</fontSize>
-	<fontSize name="large">
-		<variables>
-			<gameDeveloperDotDesc>0.073</gameDeveloperDotDesc>
-			<gameDeveloperDesc>0.090</gameDeveloperDesc>
-			<gameDeveloperDescSize>0.485</gameDeveloperDescSize>
-			<gameGenreDotDesc>0.122</gameGenreDotDesc>
-			<gameGenreDesc>0.14</gameGenreDesc>
-			<gameGenreDescSize>0.435</gameGenreDescSize>
-		</variables>
-	</fontSize>
+	<fontSize name="small">		
+		<variables>	
+			<gameDeveloperDesc>0.063</gameDeveloperDesc>
+			<gameDeveloperDescSize>0.512</gameDeveloperDescSize>
+			<gameGenreDesc>0.107</gameGenreDesc>
+			<gameGenreDescSize>0.468</gameGenreDescSize>
+		</variables>	
+	</fontSize>		
+	<fontSize name="medium">		
+		<variables>	
+			<gameDeveloperDesc>0.068</gameDeveloperDesc>
+			<gameDeveloperDescSize>0.507</gameDeveloperDescSize>
+			<gameGenreDesc>0.1145</gameGenreDesc>
+			<gameGenreDescSize>0.4605</gameGenreDescSize>
+		</variables>	
+	</fontSize>		
+	<fontSize name="large">		
+		<variables>	
+			<gameDeveloperDesc>0.073</gameDeveloperDesc>
+			<gameDeveloperDescSize>0.502</gameDeveloperDescSize>
+			<gameGenreDesc>0.122</gameGenreDesc>
+			<gameGenreDescSize>0.453</gameGenreDescSize>
+		</variables>	
+	</fontSize>		
+
 	
 	<variant name="carousel-media">
 		<view name="gamelist">
@@ -122,16 +111,9 @@
 				<container>true</container>
 				<containerType>horizontal</containerType>
 			</text>
-			<text name="game-developer-dot">
-				<pos>${gameDeveloperDot} 0.225</pos>
-			</text>
 			<text name="game-developer">
 				<pos>${gameDeveloper} 0.225</pos>
 				<size>${gameDeveloperSize} 0.03</size>
-			</text>
-			
-			<text name="game-genre-dot">
-				<pos>${gameGenreDot} 0.255</pos>
 			</text>
 			<text name="game-genre">
 				<pos>${gameGenre} 0.255</pos>
@@ -140,36 +122,31 @@
 		</view>
 	</variant>
 	
-	<fontSize name="small">
-		<variables>
-			<gameDeveloperDot>0.34375</gameDeveloperDot>
-			<gameDeveloper>0.3625</gameDeveloper>
-			<gameDeveloperSize>0.4875</gameDeveloperSize>
-			<gameGenreDot>0.3825</gameGenreDot>
-			<gameGenre>0.405</gameGenre>
-			<gameGenreSize>0.445</gameGenreSize>
-		</variables>
-	</fontSize>
-	<fontSize name="medium">
-		<variables>
-			<gameDeveloperDot>0.346875</gameDeveloperDot>
-			<gameDeveloper>0.365</gameDeveloper>
-			<gameDeveloperSize>0.485</gameDeveloperSize>
-			<gameGenreDot>0.38875</gameGenreDot>
-			<gameGenre>0.41</gameGenre>
-			<gameGenreSize>0.44</gameGenreSize>
-		</variables>
-	</fontSize>
-	<fontSize name="large">
-		<variables>
-			<gameDeveloperDot>0.35</gameDeveloperDot>
-			<gameDeveloper>0.3675</gameDeveloper>
-			<gameDeveloperSize>0.4825</gameDeveloperSize>
-			<gameGenreDot>0.395</gameGenreDot>
-			<gameGenre>0.415</gameGenre>
-			<gameGenreSize>0.435</gameGenreSize>
-		</variables>
-	</fontSize>
+	<fontSize name="small">		
+		<variables>	
+			<gameDeveloper>0.34375</gameDeveloper>
+			<gameDeveloperSize>0.50625</gameDeveloperSize>
+			<gameGenre>0.3825</gameGenre>
+			<gameGenreSize>0.4675</gameGenreSize>
+		</variables>	
+	</fontSize>		
+	<fontSize name="medium">		
+		<variables>	
+			<gameDeveloper>0.346875</gameDeveloper>
+			<gameDeveloperSize>0.503125</gameDeveloperSize>
+			<gameGenre>0.38875</gameGenre>
+			<gameGenreSize>0.46125</gameGenreSize>
+		</variables>	
+	</fontSize>		
+	<fontSize name="large">		
+		<variables>	
+			<gameDeveloper>0.35</gameDeveloper>
+			<gameDeveloperSize>0.5</gameDeveloperSize>
+			<gameGenre>0.395</gameGenre>
+			<gameGenreSize>0.455</gameGenreSize>
+		</variables>	
+	</fontSize>		
+
 	
 	<!--
 	///

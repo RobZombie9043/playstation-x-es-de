@@ -484,21 +484,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<zIndex>90</zIndex>
 		</datetime>
 		
-		<text name="game-developer-dot">
-			<origin>0 0</origin>
-			<size>0 0.03</size>
-			<verticalAlignment>top</verticalAlignment>
-			<text>•</text>
-			<backgroundColor>00000000</backgroundColor>
-			<color>0faa9c</color>
-			<fontPath>${fontSSTBold}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
-			<letterCase>none</letterCase>
-			<lineSpacing>1.1</lineSpacing>
-			<metadataElement>true</metadataElement>
-			<zIndex>90</zIndex>
-		</text>
-		
 		<text name="game-developer">
 			<origin>0 0</origin>
 			<size>0 0.03</size>
@@ -522,21 +507,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<color>FF0000</color>
 			<zIndex>90</zIndex>
 		</rating>
-		
-		<text name="game-genre-dot">
-			<origin>0 0</origin>
-			<size>0 0.03</size>
-			<verticalAlignment>top</verticalAlignment>
-			<text>•</text>
-			<backgroundColor>00000000</backgroundColor>
-			<color>42acf6</color>
-			<fontPath>${fontSSTBold}</fontPath>
-			<fontSize>${fontSizeBody}</fontSize>
-			<letterCase>none</letterCase>
-			<lineSpacing>1.1</lineSpacing>
-			<metadataElement>true</metadataElement>
-			<zIndex>90</zIndex>
-		</text>
 		
 		<text name="game-genre">
 			<origin>0 0</origin>
@@ -681,10 +651,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<pos>0.025 0.225</pos>
 			</datetime>
 			
-			<text name="game-developer-dot">
-				<pos>0.06625 0.225</pos>
-			</text>
-			
 			<text name="game-developer">
 				<pos>0.08 0.225</pos>
 			</text>
@@ -692,10 +658,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<rating name="game-rating">
 				<pos>0.025 0.255</pos>
 			</rating>
-			
-			<text name="game-genre-dot">
-				<pos>0.105 0.255</pos>
-			</text>
 			
 			<text name="game-genre">
 				<pos>0.12 0.255</pos>
@@ -721,10 +683,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<pos>0.3 0.225</pos>
 			</datetime>
 			
-			<text name="game-developer-dot">
-				<pos>0.34125 0.225</pos>
-			</text>
-			
 			<text name="game-developer">
 				<pos>0.355 0.225</pos>
 			</text>
@@ -732,10 +690,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<rating name="game-rating">
 				<pos>0.3 0.255</pos>
 			</rating>
-			
-			<text name="game-genre-dot">
-				<pos>0.38 0.255</pos>
-			</text>
 			
 			<text name="game-genre">
 				<pos>0.395 0.255</pos>
@@ -860,11 +814,6 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<fontSize>${fontSizeBody}</fontSize>
 			</datetime>
 			
-			<text name="game-developer-dot">
-				<pos>0.052 0.5775</pos>
-				<fontSize>${fontSizeBody}</fontSize>
-			</text>
-			
 			<text name="game-developer">
 				<pos>0.065 0.5775</pos>
 				<size>0.204 0.03</size>
@@ -875,12 +824,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<pos>0.016 0.6075</pos>
 				<size>0 ${fontSizeBody}</size>
 			</rating>
-			
-			<text name="game-genre-dot">
-				<pos>0.093 0.6075</pos>
-				<fontSize>${fontSizeBody}</fontSize>
-			</text>
-			
+		
 			<text name="game-genre">
 				<pos>0.108 0.6075</pos>
 				<size>0.161 0.03</size>
@@ -1010,7 +954,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<size>0.435 ${fontSizeBody}</size>
 			</badges>
 			
-			<text name="game-name, game-developer-dot, game-genre-dot">
+			<text name="game-name">
 				<visible>false</visible>
 			</text>
 			
