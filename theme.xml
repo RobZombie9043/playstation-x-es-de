@@ -214,6 +214,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<fontSize>${fontSizeH1}</fontSize>
 			<lineSpacing>1.25</lineSpacing>
 			<zIndex>90</zIndex>
+			<visible>${systemNameVisible}</visible>
 		</text>
 		<text name="systemName">
 			<text>${system.fullName.noCollections}</text>
@@ -466,6 +467,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<letterCase>none</letterCase>
 			<lineSpacing>1.1</lineSpacing>
 			<zIndex>90</zIndex>
+			<visible>${gameNameVisible}</visible>
 		</text>
 		
 		<datetime name="game-year">

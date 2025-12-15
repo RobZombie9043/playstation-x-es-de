@@ -7,6 +7,7 @@
 			<systemVideoVisible>true</systemVideoVisible>
 			<secondaryDescriptionPos>false</secondaryDescriptionPos>
 			<systemVideoAudio>true</systemVideoAudio>
+			<systemNameVisible>true</systemNameVisible>
 			<systemLogoVisible>true</systemLogoVisible>
 			<systemConsoleVisible>true</systemConsoleVisible>
 			<systemBackgroundSolidColor>false</systemBackgroundSolidColor>	
@@ -19,6 +20,7 @@
 			<metadataImageType>miximage</metadataImageType>
 			<gameVideoVisible>true</gameVideoVisible>
 			<gameImageVisible>false</gameImageVisible>
+			<gameNameVisible>true</gameNameVisible>
 		</variables>	
 	</colorScheme>
 	<colorScheme name="ps4, ps4-novid, ps4-custom">
