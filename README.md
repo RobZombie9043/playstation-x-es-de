@@ -78,6 +78,7 @@ System View customizations:
    - `<systemVideoVisible>` - Set to false to disable the videos on system view
    - `<secondaryDescriptionPos>` - Set to true to shift description text left, useful to combine with removing videos
    - `<systemVideoAudio>` - Set to false to disable the audio of the system view videos
+   - `<systemNameVisible>` - Set to false to disable the system name text
    - `<systemLogoVisible>` - Set to false to disable the system logo on system view
    - `<systemConsoleVisible>` - Set to false to disable the system console art on system view
    - `<systemBackgroundSolidColor>` - Set to use a solid color background in system view
@@ -90,6 +91,7 @@ Gamelist View cutsomizations:
    - `<gameVideoDelay>` - Set delay in seconds before video plays
    - `<carouselImageType>` - Type of image to display in gamelist carousel e.g. `cover`, `3dbox`
    - `<metadataImageType>` - Type of image to display in gamelist metadata e.g. `miximage`, `screenshot`, `titlescreen`, `cover`
+   - `<gameNameVisible>` - Set to false to disable the game name text
    - `<gameVideoVisible>` - Set to show game video, if true set `<gameImageVisible>` to `false`
    - `<gameImageVisible>` - Set to show game media image, if true set `<gameVideoVisible>` to `false`   
 
