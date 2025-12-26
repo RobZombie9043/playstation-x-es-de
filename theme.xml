@@ -360,7 +360,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<cropSize>1 1</cropSize>
-			<imageType>fanart, screenshot</imageType>
+			<imageType>${backgroundImageType}</imageType>
 			<zIndex>45</zIndex>
 		</image>
 		
@@ -738,7 +738,7 @@ license:      	Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-
 				<origin>0.5 0.5</origin>
 				<pos>0.5 0.5</pos>
 				<cropSize>1 1</cropSize>
-				<imageType>fanart, screenshot</imageType>
+				<imageType>${backgroundImageType}</imageType>
 				<delay>0</delay>
 				<scrollFadeIn>true</scrollFadeIn>
 				<audio>${gameVideoAudio}</audio>
